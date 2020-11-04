@@ -3,22 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://keithkeekw.github.io/categories/book/</loc>
-    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://keithkeekw.github.io/tags/book-review/</loc>
-    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://keithkeekw.github.io/posts/2020-11-04-book-review-make-time/</loc>
     <lastmod>2020-11-04T09:34:53+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://keithkeekw.github.io/categories/</loc>
+    <loc>https://keithkeekw.github.io/tags/books/</loc>
     <lastmod>2020-11-04T09:34:53+08:00</lastmod>
   </url>
   
@@ -38,11 +28,6 @@
   </url>
   
   <url>
-    <loc>https://keithkeekw.github.io/categories/database/</loc>
-    <lastmod>2020-11-02T13:42:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</loc>
     <lastmod>2020-11-02T13:42:00+08:00</lastmod>
   </url>
@@ -58,11 +43,6 @@
   </url>
   
   <url>
-    <loc>https://keithkeekw.github.io/categories/programming-language/</loc>
-    <lastmod>2020-11-02T09:16:30+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://keithkeekw.github.io/tags/python/</loc>
     <lastmod>2020-11-02T09:16:30+08:00</lastmod>
   </url>
@@ -75,6 +55,10 @@
   <url>
     <loc>https://keithkeekw.github.io/about/</loc>
     <lastmod>2020-10-31T13:25:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keithkeekw.github.io/categories/</loc>
   </url>
   
 </urlset>
