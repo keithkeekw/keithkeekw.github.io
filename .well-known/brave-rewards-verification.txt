@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: keithkeekw.github.io
+Token: ab285db7c712268a2fa740fb2ea3600cbc77f1410ce380f76c3a1da43fc4fb66
