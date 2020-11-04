@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on I&#39;m Keith Kee KW</title>
-    <link>http://keithkeekw.ddns.net/tags/python/</link>
+    <link>https://keithkeekw.github.io/tags/python/</link>
     <description>Recent content in python on I&#39;m Keith Kee KW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Mon, 02 Nov 2020 09:16:30 +0800</lastBuildDate><atom:link href="http://keithkeekw.ddns.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 09:16:30 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Zen of Python</title>
-      <link>http://keithkeekw.ddns.net/posts/2020-11-02-the-zen-of-python/</link>
+      <link>https://keithkeekw.github.io/posts/2020-11-02-the-zen-of-python/</link>
       <pubDate>Mon, 02 Nov 2020 09:16:30 +0800</pubDate>
       
-      <guid>http://keithkeekw.ddns.net/posts/2020-11-02-the-zen-of-python/</guid>
+      <guid>https://keithkeekw.github.io/posts/2020-11-02-the-zen-of-python/</guid>
       <description>import this Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.

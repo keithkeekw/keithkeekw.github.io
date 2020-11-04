@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on I&#39;m Keith Kee KW</title>
-    <link>http://keithkeekw.ddns.net/categories/</link>
+    <link>https://keithkeekw.github.io/categories/</link>
     <description>Recent content in Categories on I&#39;m Keith Kee KW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Wed, 04 Nov 2020 09:34:53 +0800</lastBuildDate><atom:link href="http://keithkeekw.ddns.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2020 09:34:53 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>book</title>
-      <link>http://keithkeekw.ddns.net/categories/book/</link>
+      <link>https://keithkeekw.github.io/categories/book/</link>
       <pubDate>Wed, 04 Nov 2020 09:34:53 +0800</pubDate>
       
-      <guid>http://keithkeekw.ddns.net/categories/book/</guid>
+      <guid>https://keithkeekw.github.io/categories/book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>database</title>
-      <link>http://keithkeekw.ddns.net/categories/database/</link>
+      <link>https://keithkeekw.github.io/categories/database/</link>
       <pubDate>Mon, 02 Nov 2020 13:42:00 +0800</pubDate>
       
-      <guid>http://keithkeekw.ddns.net/categories/database/</guid>
+      <guid>https://keithkeekw.github.io/categories/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming language</title>
-      <link>http://keithkeekw.ddns.net/categories/programming-language/</link>
+      <link>https://keithkeekw.github.io/categories/programming-language/</link>
       <pubDate>Mon, 02 Nov 2020 09:16:30 +0800</pubDate>
       
-      <guid>http://keithkeekw.ddns.net/categories/programming-language/</guid>
+      <guid>https://keithkeekw.github.io/categories/programming-language/</guid>
       <description></description>
     </item>
     
