@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on I&#39;m Keith Kee KW</title>
+    <link>http://keithkeekw.ddns.net/tags/</link>
+    <description>Recent content in Tags on I&#39;m Keith Kee KW</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Keith Kee KW</copyright>
+    <lastBuildDate>Wed, 04 Nov 2020 09:34:53 +0800</lastBuildDate><atom:link href="http://keithkeekw.ddns.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>book review</title>
+      <link>http://keithkeekw.ddns.net/tags/book-review/</link>
+      <pubDate>Wed, 04 Nov 2020 09:34:53 +0800</pubDate>
+      
+      <guid>http://keithkeekw.ddns.net/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>http://keithkeekw.ddns.net/tags/postgresql/</link>
+      <pubDate>Mon, 02 Nov 2020 13:42:00 +0800</pubDate>
+      
+      <guid>http://keithkeekw.ddns.net/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry pi</title>
+      <link>http://keithkeekw.ddns.net/tags/raspberry-pi/</link>
+      <pubDate>Mon, 02 Nov 2020 13:42:00 +0800</pubDate>
+      
+      <guid>http://keithkeekw.ddns.net/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>http://keithkeekw.ddns.net/tags/python/</link>
+      <pubDate>Mon, 02 Nov 2020 09:16:30 +0800</pubDate>
+      
+      <guid>http://keithkeekw.ddns.net/tags/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

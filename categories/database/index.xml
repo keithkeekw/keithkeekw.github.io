@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on I&#39;m Keith Kee KW</title>
+    <link>http://keithkeekw.ddns.net/categories/database/</link>
+    <description>Recent content in database on I&#39;m Keith Kee KW</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Keith Kee KW</copyright>
+    <lastBuildDate>Mon, 02 Nov 2020 13:42:00 +0800</lastBuildDate><atom:link href="http://keithkeekw.ddns.net/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation of PostgreSQL in Raspberry Pi</title>
+      <link>http://keithkeekw.ddns.net/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</link>
+      <pubDate>Mon, 02 Nov 2020 13:42:00 +0800</pubDate>
+      
+      <guid>http://keithkeekw.ddns.net/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</guid>
+      <description>Installation   Run the following command to install the packages:
+sudo apt install postgresql libpq-dev postgresql-client postgresql-client-common -y   When that&amp;rsquo;s complete, switch to the Postgres user to configure the database:
+sudo su postgres   Create a database user:
+createuser postgres -P --interactive   Configuration for Remote Access Configuration on postgresql.config need to be altered in order for pgAdmin to access the cluster from a different computer within the network.</description>
+    </item>
+    
+  </channel>
+</rss>

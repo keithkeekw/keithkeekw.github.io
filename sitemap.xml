@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/categories/book/</loc>
+    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/tags/book-review/</loc>
+    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/posts/2020-11-04-book-review-make-time/</loc>
+    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/categories/</loc>
+    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/</loc>
+    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/posts/</loc>
+    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/tags/</loc>
+    <lastmod>2020-11-04T09:34:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/categories/database/</loc>
+    <lastmod>2020-11-02T13:42:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</loc>
+    <lastmod>2020-11-02T13:42:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/tags/postgresql/</loc>
+    <lastmod>2020-11-02T13:42:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/tags/raspberry-pi/</loc>
+    <lastmod>2020-11-02T13:42:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/categories/programming-language/</loc>
+    <lastmod>2020-11-02T09:16:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/tags/python/</loc>
+    <lastmod>2020-11-02T09:16:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/posts/2020-11-02-the-zen-of-python/</loc>
+    <lastmod>2020-11-02T09:16:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://keithkeekw.ddns.net/about/</loc>
+    <lastmod>2020-10-31T13:25:37+08:00</lastmod>
+  </url>
+  
+</urlset>
