@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on I&#39;m Keith Kee KW</title>
-    <link>https://keithkeekw.github.io/posts/</link>
+    <link>keithkeekw.github.io/posts/</link>
     <description>Recent content in Posts on I&#39;m Keith Kee KW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Wed, 04 Nov 2020 09:34:53 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2020 09:34:53 +0800</lastBuildDate><atom:link href="keithkeekw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Review: Make Time</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-04-book-review-make-time/</link>
+      <link>keithkeekw.github.io/posts/2020-11-04-book-review-make-time/</link>
       <pubDate>Wed, 04 Nov 2020 09:34:53 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/2020-11-04-book-review-make-time/</guid>
+      <guid>keithkeekw.github.io/posts/2020-11-04-book-review-make-time/</guid>
       <description>Authors: Jake Knapp &amp;amp; John Zeratsky
 Type: Non-Fiction
 Genre: Productivity
@@ -23,10 +23,10 @@ Links: Goodread.com | Amazon.com
     
     <item>
       <title>Installation of PostgreSQL in Raspberry Pi</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</link>
+      <link>keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</link>
       <pubDate>Mon, 02 Nov 2020 13:42:00 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</guid>
+      <guid>keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</guid>
       <description>Installation   Run the following command to install the packages:
 sudo apt install postgresql libpq-dev postgresql-client postgresql-client-common -y   When that&amp;rsquo;s complete, switch to the Postgres user to configure the database:
 sudo su postgres   Create a database user:
@@ -35,10 +35,10 @@ createuser postgres -P --interactive   Configuration for Remote Access Configura
     
     <item>
       <title>The Zen of Python</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-02-the-zen-of-python/</link>
+      <link>keithkeekw.github.io/posts/2020-11-02-the-zen-of-python/</link>
       <pubDate>Mon, 02 Nov 2020 09:16:30 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/2020-11-02-the-zen-of-python/</guid>
+      <guid>keithkeekw.github.io/posts/2020-11-02-the-zen-of-python/</guid>
       <description>import this Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
