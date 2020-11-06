@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Mon, 02 Nov 2020 13:42:00 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 14:48:17 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Set Up Samba Server in Raspberry Pi</title>
+      <link>https://keithkeekw.github.io/posts/2020-11-06-how-to-set-up-samba-server-in-raspberry-pi/</link>
+      <pubDate>Fri, 06 Nov 2020 14:48:17 +0800</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/2020-11-06-how-to-set-up-samba-server-in-raspberry-pi/</guid>
+      <description>Ensure the Raspberry Pi&amp;rsquo;s repositories are up-to-date by performing the command below in the terminal:
+sudo apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade -y   Next, proceed to install all the required packages from the remote repositories for Samba by running the command below:
+sudo apt-get install samba samba-common-bin   After the installation has been completed, we can proceed to create a folder to be shared via the Samba Server.</description>
+    </item>
+    
     <item>
       <title>Installation of PostgreSQL in Raspberry Pi</title>
       <link>https://keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</link>
