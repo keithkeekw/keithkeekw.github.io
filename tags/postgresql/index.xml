@@ -15,9 +15,9 @@
       
       <guid>https://keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</guid>
       <description>Installation   Run the following command to install the packages:
-sudo apt install postgresql libpq-dev postgresql-client postgresql-client-common -y   When that&amp;rsquo;s complete, switch to the Postgres user to configure the database:
-sudo su postgres   Create a database user:
-createuser postgres -P --interactive   Configuration for Remote Access Configuration on postgresql.config need to be altered in order for pgAdmin to access the cluster from a different computer within the network.</description>
+sudo apt install postgresql -y   When that&amp;rsquo;s complete, postsgre user account will be automatically created in the user account. Before proceed further give the postgre account a password. Run the command as below:
+sudo passwd postgres   Next, change the user account from pi to postgres.:
+su postgres   Proceed to login to the database via psql command and you will be able to access to the database without any password since the user postgres does not have any password assigned to it by default.</description>
     </item>
     
   </channel>

@@ -10,9 +10,9 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Installation of PostgreSQL in Raspberry Pi" />
 <meta property="og:description" content="Installation   Run the following command to install the packages:
-sudo apt install postgresql libpq-dev postgresql-client postgresql-client-common -y   When that&rsquo;s complete, switch to the Postgres user to configure the database:
-sudo su postgres   Create a database user:
-createuser postgres -P --interactive   Configuration for Remote Access Configuration on postgresql.config need to be altered in order for pgAdmin to access the cluster from a different computer within the network." />
+sudo apt install postgresql -y   When that&rsquo;s complete, postsgre user account will be automatically created in the user account. Before proceed further give the postgre account a password. Run the command as below:
+sudo passwd postgres   Next, change the user account from pi to postgres.:
+su postgres   Proceed to login to the database via psql command and you will be able to access to the database without any password since the user postgres does not have any password assigned to it by default." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/" />
 <meta property="article:published_time" content="2020-11-02T13:42:00+08:00" />
@@ -21,9 +21,9 @@ createuser postgres -P --interactive   Configuration for Remote Access Configura
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Installation of PostgreSQL in Raspberry Pi"/>
 <meta name="twitter:description" content="Installation   Run the following command to install the packages:
-sudo apt install postgresql libpq-dev postgresql-client postgresql-client-common -y   When that&rsquo;s complete, switch to the Postgres user to configure the database:
-sudo su postgres   Create a database user:
-createuser postgres -P --interactive   Configuration for Remote Access Configuration on postgresql.config need to be altered in order for pgAdmin to access the cluster from a different computer within the network."/>
+sudo apt install postgresql -y   When that&rsquo;s complete, postsgre user account will be automatically created in the user account. Before proceed further give the postgre account a password. Run the command as below:
+sudo passwd postgres   Next, change the user account from pi to postgres.:
+su postgres   Proceed to login to the database via psql command and you will be able to access to the database without any password since the user postgres does not have any password assigned to it by default."/>
 
   
   
@@ -154,7 +154,7 @@ createuser postgres -P --interactive   Configuration for Remote Access Configura
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fkeithkeekw.github.io%2fposts%2f2020-11-02-installation-postgresql-in-raspberry-pi%2f&name=Installation%20of%20PostgreSQL%20in%20Raspberry%20Pi&description=Installation%20%20%20Run%20the%20following%20command%20to%20install%20the%20packages%3a%0asudo%20apt%20install%20postgresql%20libpq-dev%20postgresql-client%20postgresql-client-common%20-y%20%20%20When%20that%26rsquo%3bs%20complete%2c%20switch%20to%20the%20Postgres%20user%20to%20configure%20the%20database%3a%0asudo%20su%20postgres%20%20%20Create%20a%20database%20user%3a%0acreateuser%20postgres%20-P%20--interactive%20%20%20Configuration%20for%20Remote%20Access%20Configuration%20on%20postgresql.config%20need%20to%20be%20altered%20in%20order%20for%20pgAdmin%20to%20access%20the%20cluster%20from%20a%20different%20computer%20within%20the%20network.">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fkeithkeekw.github.io%2fposts%2f2020-11-02-installation-postgresql-in-raspberry-pi%2f&name=Installation%20of%20PostgreSQL%20in%20Raspberry%20Pi&description=Installation%20%20%20Run%20the%20following%20command%20to%20install%20the%20packages%3a%0asudo%20apt%20install%20postgresql%20-y%20%20%20When%20that%26rsquo%3bs%20complete%2c%20postsgre%20user%20account%20will%20be%20automatically%20created%20in%20the%20user%20account.%20Before%20proceed%20further%20give%20the%20postgre%20account%20a%20password.%20Run%20the%20command%20as%20below%3a%0asudo%20passwd%20postgres%20%20%20Next%2c%20change%20the%20user%20account%20from%20pi%20to%20postgres.%3a%0asu%20postgres%20%20%20Proceed%20to%20login%20to%20the%20database%20via%20psql%20command%20and%20you%20will%20be%20able%20to%20access%20to%20the%20database%20without%20any%20password%20since%20the%20user%20postgres%20does%20not%20have%20any%20password%20assigned%20to%20it%20by%20default.">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
@@ -171,6 +171,7 @@ createuser postgres -P --interactive   Configuration for Remote Access Configura
   <ul>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#configuration-for-remote-access">Configuration for Remote Access</a></li>
+    <li><a href="#resources">Resource(s)</a></li>
   </ul>
 </nav>
     </div>
@@ -213,33 +214,53 @@ createuser postgres -P --interactive   Configuration for Remote Access Configura
 <li>
 <p>Run the following command to install the packages:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
- sudo apt install postgresql libpq-dev postgresql-client postgresql-client-common -y
+ sudo apt install postgresql -y
 
 </code></pre></div></li>
 <li>
-<p>When that&rsquo;s complete, switch to the Postgres user to configure the database:</p>
+<p>When that&rsquo;s complete, <code>postsgre</code> user account will be automatically created in the user account. Before proceed further give the <code>postgre</code> account a password. Run the command as below:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
- sudo su postgres
+ sudo passwd postgres
 
 </code></pre></div></li>
 <li>
-<p>Create a database user:</p>
+<p>Next, change the user account from <code>pi</code> to <code>postgres</code>.:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
- createuser postgres -P --interactive
+ su postgres
+
+</code></pre></div></li>
+<li>
+<p>Proceed to login to the database via <code>psql</code> command and you will be able to access to the database without any password since the user <code>postgres</code> does not have any password assigned to it by default. After login into the <code>psql</code> terminal, proceed to run the command below to create password for <code>postgres</code> account.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql">
+  <span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">USER</span> postgres <span style="color:#66d9ef">WITH</span> PASSWORD <span style="color:#f92672">`</span>Your Own Password<span style="color:#f92672">`</span>
 
 </code></pre></div></li>
 </ol>
 <h2 id="configuration-for-remote-access">Configuration for Remote Access</h2>
 <p>Configuration on <strong>postgresql.config</strong> need to be altered in order for pgAdmin to access the cluster from a different computer within the network.</p>
 <ol>
-<li>Edit the <strong>PostgreSQL config file</strong> <em>(/etc/postgresql/11/main/postgresql.config)</em>. Uncomment <strong>listen_addresses</strong> and change its value from <strong>localhost</strong> to *.</li>
-<li>Edit the <strong>pg_hba</strong> config file <em>(/etc/postgresql/11/main/pg_hba.config)</em> to change <strong>127.0.0.1</strong> to <strong>0.0.0.0/0</strong> for IPv4 and <strong>::1/128</strong> to <strong>::/0</strong> for IPv6.</li>
-<li>Restart the PostgreSQL service:
+<li>
+<p>Edit the <strong>PostgreSQL config file</strong> <em>(/etc/postgresql/11/main/postgresql.config)</em>. Uncomment <strong>listen_addresses</strong> and change its value from <strong>&lsquo;localhost&rsquo;</strong> to <strong>'*'</strong>.</p>
+</li>
+<li>
+<p>Edit the <strong>pg_hba</strong> config file <em>(/etc/postgresql/11/main/pg_hba.config)</em> to comment out the line below:</p>
+<pre><code>#host    all     all     127.0.0.1/32    md5
+#host    all     all     ::1/128         md5
+</code></pre><p>Insert the a new line into the file:</p>
+<pre><code>host     all     all     0.0.0.0/0       trust
+host     all     all     ::/0            trust
+</code></pre></li>
+<li>
+<p>Restart the PostgreSQL service:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
  sudo systemctl restart postgresql
 
 </code></pre></div></li>
 </ol>
+<h2 id="resources">Resource(s)</h2>
+<ul>
+<li><a href="https://www.postgresql.org/docs/current/auth-pg-hba-conf.html">Offical Documentation for pg_hba.conf</a></li>
+</ul>
 
     </div>
   </article>
@@ -273,6 +294,7 @@ createuser postgres -P --interactive   Configuration for Remote Access Configura
   <ul>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#configuration-for-remote-access">Configuration for Remote Access</a></li>
+    <li><a href="#resources">Resource(s)</a></li>
   </ul>
 </nav>
     </div>
@@ -331,7 +353,7 @@ createuser postgres -P --interactive   Configuration for Remote Access Configura
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fkeithkeekw.github.io%2fposts%2f2020-11-02-installation-postgresql-in-raspberry-pi%2f&name=Installation%20of%20PostgreSQL%20in%20Raspberry%20Pi&description=Installation%20%20%20Run%20the%20following%20command%20to%20install%20the%20packages%3a%0asudo%20apt%20install%20postgresql%20libpq-dev%20postgresql-client%20postgresql-client-common%20-y%20%20%20When%20that%26rsquo%3bs%20complete%2c%20switch%20to%20the%20Postgres%20user%20to%20configure%20the%20database%3a%0asudo%20su%20postgres%20%20%20Create%20a%20database%20user%3a%0acreateuser%20postgres%20-P%20--interactive%20%20%20Configuration%20for%20Remote%20Access%20Configuration%20on%20postgresql.config%20need%20to%20be%20altered%20in%20order%20for%20pgAdmin%20to%20access%20the%20cluster%20from%20a%20different%20computer%20within%20the%20network.">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fkeithkeekw.github.io%2fposts%2f2020-11-02-installation-postgresql-in-raspberry-pi%2f&name=Installation%20of%20PostgreSQL%20in%20Raspberry%20Pi&description=Installation%20%20%20Run%20the%20following%20command%20to%20install%20the%20packages%3a%0asudo%20apt%20install%20postgresql%20-y%20%20%20When%20that%26rsquo%3bs%20complete%2c%20postsgre%20user%20account%20will%20be%20automatically%20created%20in%20the%20user%20account.%20Before%20proceed%20further%20give%20the%20postgre%20account%20a%20password.%20Run%20the%20command%20as%20below%3a%0asudo%20passwd%20postgres%20%20%20Next%2c%20change%20the%20user%20account%20from%20pi%20to%20postgres.%3a%0asu%20postgres%20%20%20Proceed%20to%20login%20to%20the%20database%20via%20psql%20command%20and%20you%20will%20be%20able%20to%20access%20to%20the%20database%20without%20any%20password%20since%20the%20user%20postgres%20does%20not%20have%20any%20password%20assigned%20to%20it%20by%20default.">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
