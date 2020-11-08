@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Fri, 06 Nov 2020 14:48:17 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 07:18:04 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Use Crontab</title>
+      <link>https://keithkeekw.github.io/posts/2020-11-09-how-to-use-crontab/</link>
+      <pubDate>Mon, 09 Nov 2020 07:18:04 +0800</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/2020-11-09-how-to-use-crontab/</guid>
+      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.  Cron Table Format * * * * * Command_to_execute| | | | | | | | | Day of the Week ( 0 - 6 ) ( Sunday = 0 )| | | || | | Month ( 1 - 12 )| | || | Day of Month ( 1 - 31 )| || Hour ( 0 - 23 )|Min ( 0 - 59 )Specifying multiple values in a field</description>
+    </item>
+    
     <item>
       <title>How to Set Up Samba Server in Raspberry Pi</title>
       <link>https://keithkeekw.github.io/posts/2020-11-06-how-to-set-up-samba-server-in-raspberry-pi/</link>
