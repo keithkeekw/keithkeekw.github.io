@@ -7,14 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Mon, 09 Nov 2020 07:18:04 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 22:40:37 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Git Commands for Beginner</title>
+      <link>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</link>
+      <pubDate>Fri, 13 Nov 2020 22:40:37 +0800</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</guid>
+      <description>Basic Git Commands for Beginners git clone   The function of the git clone to save a copy of the main branch from Github into the local hard drive.
+  Below is the example on how to use this command:
+git clone https://github.com/keithkeekw/test_repo.git Below are the example:
+    git status   It is to get the status of the working files. If there&amp;rsquo;s any changes on any files, it will list it accordingly.</description>
+    </item>
+    
     <item>
       <title>How to Use Crontab</title>
       <link>https://keithkeekw.github.io/posts/2020-11-09-how-to-use-crontab/</link>
       <pubDate>Mon, 09 Nov 2020 07:18:04 +0800</pubDate>
       
       <guid>https://keithkeekw.github.io/posts/2020-11-09-how-to-use-crontab/</guid>
-      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.  Cron Table Format * * * * * Command_to_execute| | | | | | | | | Day of the Week ( 0 - 6 ) ( Sunday = 0 )| | | || | | Month ( 1 - 12 )| | || | Day of Month ( 1 - 31 )| || Hour ( 0 - 23 )|Min ( 0 - 59 )Specifying multiple values in a field</description>
+      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.  Cron Table Format * * * * * Command_to_execute | | | | | | | | | Day of the Week ( 0 - 6 ) ( Sunday = 0 ) | | | | | | | Month ( 1 - 12 ) | | | | | Day of Month ( 1 - 31 ) | | | Hour ( 0 - 23 ) | Min ( 0 - 59 ) Specifying multiple values in a field</description>
     </item>
     
     <item>
