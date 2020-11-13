@@ -14,7 +14,7 @@
       <pubDate>Fri, 13 Nov 2020 22:40:37 +0800</pubDate>
       
       <guid>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</guid>
-      <description>Basic Git Commands for Beginners git clone   The function of the git clone to save a copy of the main branch from Github into the local hard drive.
+      <description>git clone   The function of the git clone to save a copy of the main branch from Github into the local hard drive.
   Below is the example on how to use this command:
 git clone https://github.com/keithkeekw/test_repo.git Below are the example:
     git status   It is to get the status of the working files. If there&amp;rsquo;s any changes on any files, it will list it accordingly.</description>
