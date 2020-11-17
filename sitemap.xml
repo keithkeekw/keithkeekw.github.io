@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://keithkeekw.github.io/posts/2020-11-17-how-to-set-up-ssh-public-key-authentication-windows-10/</loc>
+    <lastmod>2020-11-17T18:49:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keithkeekw.github.io/</loc>
+    <lastmod>2020-11-17T18:49:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keithkeekw.github.io/posts/</loc>
+    <lastmod>2020-11-17T18:49:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keithkeekw.github.io/tags/</loc>
+    <lastmod>2020-11-17T18:49:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keithkeekw.github.io/tags/windows/</loc>
+    <lastmod>2020-11-17T18:49:46+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</loc>
     <lastmod>2020-11-13T22:40:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://keithkeekw.github.io/</loc>
-    <lastmod>2020-11-13T22:40:37+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://keithkeekw.github.io/tags/linux/</loc>
-    <lastmod>2020-11-13T22:40:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://keithkeekw.github.io/posts/</loc>
-    <lastmod>2020-11-13T22:40:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://keithkeekw.github.io/tags/</loc>
     <lastmod>2020-11-13T22:40:37+08:00</lastmod>
   </url>
   

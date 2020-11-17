@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Fri, 13 Nov 2020 22:40:37 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Nov 2020 18:49:46 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Set Up SSH Public Key Authentication Windows 10</title>
+      <link>https://keithkeekw.github.io/posts/2020-11-17-how-to-set-up-ssh-public-key-authentication-windows-10/</link>
+      <pubDate>Tue, 17 Nov 2020 18:49:46 +0800</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/2020-11-17-how-to-set-up-ssh-public-key-authentication-windows-10/</guid>
+      <description>Launch the Command Prompt and proceed with the command below:
+ssh-keygen   Ignore the passphrase by simply hit the Enter key.
+  After generating both the private and public keys, proceed to login to the server via SSH using the username &amp;amp; password.
+  Once you are in the server, proceed to create a folder as shown below:
+sudo mkdir -p /.ssh   Create a file with name of authorized_keys:</description>
+    </item>
+    
     <item>
       <title>Basic Git Commands for Beginner</title>
       <link>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</link>
