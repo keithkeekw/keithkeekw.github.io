@@ -33,7 +33,8 @@ November</description>
       <pubDate>Sat, 21 Nov 2020 18:14:12 +0800</pubDate>
       
       <guid>https://keithkeekw.github.io/now/</guid>
-      <description>This page is inspired by David Winterbottom’s Now Page, which will lead you down a rabbit hole of other “Now” pages.</description>
+      <description>I am trying&amp;hellip;
+ to work on this blog. to refresh my knowledge on Linux after a period of hiatus. to write as many scripts to automate my job as well as my life. This page is inspired by David Winterbottom’s Now Page, which will lead you down a rabbit hole of other “Now” pages.  </description>
     </item>
     
     <item>
@@ -46,24 +47,6 @@ November</description>
 Do you want to know what I am up to? Check it here
 Here&amp;rsquo;s a list to subject I have learned and resonate deeply in me.
 You can reach me via twitter | Github | LinkedIn</description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>https://keithkeekw.github.io/posts/what-is-hugo/</link>
-      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://keithkeekw.github.io/posts/what-is-hugo/</guid>
-      <description>&lt;p&gt;Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&amp;rsquo;t need to be a Go guru to contribute to the project&amp;rsquo;s development.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What is Hugo</title>
-      <link>https://keithkeekw.github.io/posts/introduction/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://keithkeekw.github.io/posts/introduction/</guid>
-      <description>&lt;p&gt;Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.&lt;/p&gt;</description>
     </item>
     
   </channel>
