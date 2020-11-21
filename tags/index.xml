@@ -1,66 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on I&#39;m Keith Kee KW</title>
+    <title>Tags on keithkeekw@github</title>
     <link>https://keithkeekw.github.io/tags/</link>
-    <description>Recent content in Tags on I&#39;m Keith Kee KW</description>
+    <description>Recent content in Tags on keithkeekw@github</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Tue, 17 Nov 2020 18:49:46 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>windows</title>
-      <link>https://keithkeekw.github.io/tags/windows/</link>
-      <pubDate>Tue, 17 Nov 2020 18:49:46 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://keithkeekw.github.io/tags/linux/</link>
-      <pubDate>Fri, 13 Nov 2020 22:40:37 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>raspberry pi</title>
-      <link>https://keithkeekw.github.io/tags/raspberry-pi/</link>
-      <pubDate>Fri, 06 Nov 2020 14:48:17 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/tags/raspberry-pi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>books</title>
-      <link>https://keithkeekw.github.io/tags/books/</link>
-      <pubDate>Wed, 04 Nov 2020 09:34:53 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/tags/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postgresql</title>
-      <link>https://keithkeekw.github.io/tags/postgresql/</link>
-      <pubDate>Mon, 02 Nov 2020 13:42:00 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/tags/postgresql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://keithkeekw.github.io/tags/python/</link>
-      <pubDate>Mon, 02 Nov 2020 09:16:30 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://keithkeekw.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

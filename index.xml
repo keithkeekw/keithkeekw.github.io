@@ -1,114 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>I&#39;m Keith Kee KW</title>
+    <title>Posts on keithkeekw@github</title>
     <link>https://keithkeekw.github.io/</link>
-    <description>Recent content on I&#39;m Keith Kee KW</description>
+    <description>Recent content in Posts on keithkeekw@github</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Tue, 17 Nov 2020 18:49:46 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2020 18:30:17 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Set Up SSH Public Key Authentication Windows 10</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-17-how-to-set-up-ssh-public-key-authentication-windows-10/</link>
-      <pubDate>Tue, 17 Nov 2020 18:49:46 +0800</pubDate>
+      <title>Hello World</title>
+      <link>https://keithkeekw.github.io/posts/hello-world/</link>
+      <pubDate>Sat, 21 Nov 2020 18:30:17 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/2020-11-17-how-to-set-up-ssh-public-key-authentication-windows-10/</guid>
-      <description>Launch the Command Prompt and proceed with the command below:
-ssh-keygen   Ignore the passphrase by simply hit the Enter key.
-  After generating both the private and public keys, proceed to login to the server via SSH using the username &amp;amp; password.
-  Once you are in the server, proceed to create a folder as shown below:
-sudo mkdir -p /.ssh   Create a file with name of authorized_keys:</description>
+      <guid>https://keithkeekw.github.io/posts/hello-world/</guid>
+      <description>First and foremost, welcome to my blog where I mostly will post things about my learning notes in subject like Linux and book reviews.</description>
     </item>
     
     <item>
-      <title>Basic Git Commands for Beginner</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</link>
-      <pubDate>Fri, 13 Nov 2020 22:40:37 +0800</pubDate>
+      <title>Today I Learned</title>
+      <link>https://keithkeekw.github.io/til/</link>
+      <pubDate>Sat, 21 Nov 2020 18:16:01 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</guid>
-      <description>git clone   The function of the git clone to save a copy of the main branch from Github into the local hard drive.
-  Below is the example on how to use this command:
-git clone https://github.com/keithkeekw/test_repo.git Below are the example:
-    git status   It is to get the status of the working files. If there&amp;rsquo;s any changes on any files, it will list it accordingly.</description>
+      <guid>https://keithkeekw.github.io/til/</guid>
+      <description>Here&amp;rsquo;s a collection of information which resonate deeply in me. This list will consist all range of topics from self-developement, money management and many more.
+2020
+November</description>
     </item>
     
     <item>
-      <title>How to Use Crontab</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-09-how-to-use-crontab/</link>
-      <pubDate>Mon, 09 Nov 2020 07:18:04 +0800</pubDate>
+      <title>Now</title>
+      <link>https://keithkeekw.github.io/now/</link>
+      <pubDate>Sat, 21 Nov 2020 18:14:12 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/2020-11-09-how-to-use-crontab/</guid>
-      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.  Cron Table Format * * * * * Command_to_execute | | | | | | | | | Day of the Week ( 0 - 6 ) ( Sunday = 0 ) | | | | | | | Month ( 1 - 12 ) | | | | | Day of Month ( 1 - 31 ) | | | Hour ( 0 - 23 ) | Min ( 0 - 59 ) Specifying multiple values in a field</description>
+      <guid>https://keithkeekw.github.io/now/</guid>
+      <description>This page is inspired by David Winterbottom’s Now Page, which will lead you down a rabbit hole of other “Now” pages.</description>
     </item>
     
     <item>
-      <title>How to Set Up Samba Server in Raspberry Pi</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-06-how-to-set-up-samba-server-in-raspberry-pi/</link>
-      <pubDate>Fri, 06 Nov 2020 14:48:17 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/posts/2020-11-06-how-to-set-up-samba-server-in-raspberry-pi/</guid>
-      <description>Ensure the Raspberry Pi&amp;rsquo;s repositories are up-to-date by performing the command below in the terminal:
-sudo apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade -y   Next, proceed to install all the required packages from the remote repositories for Samba by running the command below:
-sudo apt-get install samba samba-common-bin   After the installation has been completed, we can proceed to create a folder to be shared via the Samba Server.</description>
-    </item>
-    
-    <item>
-      <title>Book Review: Make Time</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-04-book-review-make-time/</link>
-      <pubDate>Wed, 04 Nov 2020 09:34:53 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/posts/2020-11-04-book-review-make-time/</guid>
-      <description>Authors: Jake Knapp &amp;amp; John Zeratsky
-Type: Non-Fiction
-Genre: Productivity
-Links: Goodread.com | Amazon.com
- Summary All of us are have 24 hours a day to live our life and most of us will complain about insufficient time to actually live in the way we wanted and to pursue activity or experience we truly enjoy. Make Time offers an easy framework to carve out some time of our day to do things or tasks that matter the most to us and the framework only consists of 4 elements.</description>
-    </item>
-    
-    <item>
-      <title>Installation of PostgreSQL in Raspberry Pi</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</link>
-      <pubDate>Mon, 02 Nov 2020 13:42:00 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/posts/2020-11-02-installation-postgresql-in-raspberry-pi/</guid>
-      <description>Installation   Run the following command to install the packages:
-sudo apt install postgresql -y   When that&amp;rsquo;s complete, postsgre user account will be automatically created in the user account. Before proceed further give the postgre account a password. Run the command as below:
-sudo passwd postgres   Next, change the user account from pi to postgres.:
-su postgres   Proceed to login to the database via psql command and you will be able to access to the database without any password since the user postgres does not have any password assigned to it by default.</description>
-    </item>
-    
-    <item>
-      <title>The Zen of Python</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-02-the-zen-of-python/</link>
-      <pubDate>Mon, 02 Nov 2020 09:16:30 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/posts/2020-11-02-the-zen-of-python/</guid>
-      <description>import this Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren&amp;rsquo;t special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one&amp;ndash; and preferably only one &amp;ndash;obvious way to do it.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
+      <title>About</title>
       <link>https://keithkeekw.github.io/about/</link>
-      <pubDate>Sat, 31 Oct 2020 13:25:37 +0800</pubDate>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://keithkeekw.github.io/about/</guid>
-      <description>Highly self-motivated and result-oriented professional who is committed to pursue the best result for himself as well as for the employer. Offer more than 14 years track record of demonstrating strong analytical &amp;amp; problem-solving ability as well as decision making skill. Desire of learning something new is always high.
-Education Bachelor’s Degree (Hons) in Computer Science from COVENTRY UNIVERSITY
-Language English, Malay, Mandarin
-Current Employment APPLICATION SUPPORT ENGINEER</description>
+      <description>👋 Hi there! I am Keith Keeand I am an Application Support Engineer in a Broadcast Management System company. Currently I am residing in Malaysia. I am interested in all sort of technologies especially in automation tools.
+Do you want to know what I am up to? Check it here
+Here&amp;rsquo;s a list to subject I have learned and resonate deeply in me.
+You can reach me via twitter | Github | LinkedIn</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://keithkeekw.github.io/posts/what-is-hugo/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/what-is-hugo/</guid>
+      <description>&lt;p&gt;Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&amp;rsquo;t need to be a Go guru to contribute to the project&amp;rsquo;s development.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What is Hugo</title>
+      <link>https://keithkeekw.github.io/posts/introduction/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/introduction/</guid>
+      <description>&lt;p&gt;Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.&lt;/p&gt;</description>
     </item>
     
   </channel>

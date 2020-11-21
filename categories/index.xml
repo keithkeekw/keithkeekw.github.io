@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on I&#39;m Keith Kee KW</title>
+    <title>Categories on keithkeekw@github</title>
     <link>https://keithkeekw.github.io/categories/</link>
-    <description>Recent content in Categories on I&#39;m Keith Kee KW</description>
+    <description>Recent content in Categories on keithkeekw@github</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Keith Kee KW</copyright><atom:link href="https://keithkeekw.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://keithkeekw.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
