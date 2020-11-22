@@ -6,7 +6,16 @@
     <description>Recent content in Posts on keithkeekw@github</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 18:30:17 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Nov 2020 07:22:09 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Use Crontab</title>
+      <link>https://keithkeekw.github.io/posts/how-to-use-crontab/</link>
+      <pubDate>Mon, 23 Nov 2020 07:22:09 +0800</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/how-to-use-crontab/</guid>
+      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.  Cron Table Format * * * * * Command_to_execute | | | | | | | | | Day of the Week ( 0 - 6 ) ( Sunday = 0 ) | | | | | | | Month ( 1 - 12 ) | | | | | Day of Month ( 1 - 31 ) | | | Hour ( 0 - 23 ) | Min ( 0 - 59 ) Specifying multiple values in a field</description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://keithkeekw.github.io/posts/hello-world/</link>
@@ -24,7 +33,7 @@
       <guid>https://keithkeekw.github.io/til/</guid>
       <description>Here&amp;rsquo;s a collection of information which resonate deeply in me. This list will consist all range of topics from self-developement, money management and many more.
 2020
-November</description>
+November    No. Title Link Category     1. Linux File System/Structure Explained YouTube.com Linux   2. Don&amp;rsquo;t Just Collect The Dots - Connect Them ChiefExecutive.net Productivity   3. Understanding Linux File Permission Linux.com Linux   4. The quick and simple editor for cron schedule expressions Crontab.</description>
     </item>
     
     <item>
@@ -33,8 +42,8 @@ November</description>
       <pubDate>Sat, 21 Nov 2020 18:14:12 +0800</pubDate>
       
       <guid>https://keithkeekw.github.io/now/</guid>
-      <description>I am trying&amp;hellip;
- to work on this blog. to refresh my knowledge on Linux after a period of hiatus. to write as many scripts to automate my job as well as my life. This page is inspired by David Winterbottom’s Now Page, which will lead you down a rabbit hole of other “Now” pages.  </description>
+      <description>Last Updated: 22 Nov 2020 I am trying&amp;hellip;
+ to work on this blog. to refresh my knowledge on Linux after a period of hiatus. to write as many scripts to automate my job as well as my life.   This page is inspired by David Winterbottom&amp;rsquo;s Now Page, which will lead you down a rabbit hole of other “Now” pages.</description>
     </item>
     
     <item>
