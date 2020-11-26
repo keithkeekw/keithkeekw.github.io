@@ -22,7 +22,7 @@
       <pubDate>Sat, 21 Nov 2020 18:30:17 +0800</pubDate>
       
       <guid>https://keithkeekw.github.io/posts/hello-world/</guid>
-      <description>First and foremost, welcome to my blog where I mostly will post things about my learning notes in subject like Linux and book reviews.</description>
+      <description>First and foremost, welcome to my blog where I mostly will post things about my learning notes in subject like Linux and book reviews. There might some short snippet on stuff that I find very interesting to share and most will be around technology.</description>
     </item>
     
     <item>
@@ -32,8 +32,9 @@
       
       <guid>https://keithkeekw.github.io/til/</guid>
       <description>Here&amp;rsquo;s a collection of information which resonate deeply in me. This list will consist all range of topics from self-developement, money management and many more.
+Updated: 26th November 2020
 2020
-November    No. Title Link Category     1. Linux File System/Structure Explained YouTube.com Linux   2. Don&amp;rsquo;t Just Collect The Dots - Connect Them ChiefExecutive.net Productivity   3. Understanding Linux File Permission Linux.com Linux   4. The quick and simple editor for cron schedule expressions Crontab.</description>
+November    No. Title Link Category     1. Linux File System/Structure Explained YouTube.com Linux   2. Don&amp;rsquo;t Just Collect The Dots - Connect Them ChiefExecutive.net Productivity   3. Understanding Linux File Permission Linux.com Linux   4.</description>
     </item>
     
     <item>
@@ -42,8 +43,8 @@ November    No. Title Link Category     1. Linux File System/Structure Explained
       <pubDate>Sat, 21 Nov 2020 18:14:12 +0800</pubDate>
       
       <guid>https://keithkeekw.github.io/now/</guid>
-      <description>Last Updated: 22 Nov 2020 I am trying&amp;hellip;
- to work on this blog. to refresh my knowledge on Linux after a period of hiatus. to write as many scripts to automate my job as well as my life.   This page is inspired by David Winterbottom&amp;rsquo;s Now Page, which will lead you down a rabbit hole of other “Now” pages.</description>
+      <description>Last Updated: 25 Nov 2020 I am trying&amp;hellip;
+ to work on this blog. to refresh my knowledge on Linux after a period of hiatus. to write as many scripts to automate my job as well as my life. Currently&amp;hellip; configuring my vimrc file as I am started to learn about this powerful text editor.  This page is inspired by David Winterbottom&amp;rsquo;s Now Page, which will lead you down a rabbit hole of other “Now” pages.</description>
     </item>
     
     <item>
@@ -52,10 +53,8 @@ November    No. Title Link Category     1. Linux File System/Structure Explained
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://keithkeekw.github.io/about/</guid>
-      <description>👋 Hi there! I am Keith Keeand I am an Application Support Engineer in a Broadcast Management System company. Currently I am residing in Malaysia. I am interested in all sort of technologies especially in automation tools.
-Do you want to know what I am up to? Check it here
-Here&amp;rsquo;s a list to subject I have learned and resonate deeply in me.
-You can reach me via twitter | Github | LinkedIn</description>
+      <description>👋 Hi there! I am Keith Keeand I am an Application Support Engineer in a Broadcast Management System company. Currently I am residing in Malaysia. I have been working in the IT industry for almost 14 years now and primarily on the customer support and project implementation.
+This blog is intented to share knowledge about technology especially in Linux and other interested project that I might wanna to share with the world.</description>
     </item>
     
   </channel>
