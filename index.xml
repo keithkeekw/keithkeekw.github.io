@@ -6,7 +6,16 @@
     <description>Recent content in Posts on keithkeekw@github</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2020 07:22:09 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Nov 2020 18:06:05 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux File Structure</title>
+      <link>https://keithkeekw.github.io/posts/linux-file-structure/</link>
+      <pubDate>Sat, 28 Nov 2020 18:06:05 +0800</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/linux-file-structure/</guid>
+      <description>Folder Name Description     /bin /bin is the directory that contains binaries, that is, some of the applications and programs you can run. You will find the ls program mentioned above in this directory, as well as other basic tools for making and removing files and directories, moving them around, and so on. There are more bin directories in other parts of the file system tree, but we’ll be talking about those in a minute.</description>
+    </item>
+    
     <item>
       <title>How to Use Crontab</title>
       <link>https://keithkeekw.github.io/posts/how-to-use-crontab/</link>
@@ -32,7 +41,7 @@
       
       <guid>https://keithkeekw.github.io/til/</guid>
       <description>Here&amp;rsquo;s a collection of information which resonate deeply in me. This list will consist all range of topics from self-developement, money management and many more.
-Updated: 26th November 2020
+Updated: 28th November 2020
 2020
 November    No. Title Link Category     1. Linux File System/Structure Explained YouTube.com Linux   2. Don&amp;rsquo;t Just Collect The Dots - Connect Them ChiefExecutive.net Productivity   3. Understanding Linux File Permission Linux.com Linux   4.</description>
     </item>
