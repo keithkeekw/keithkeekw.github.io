@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Keith Kee</title>
-    <link>http://keithkeekw.github.io/</link>
+    <link>https://keithkeekw.github.io/</link>
     <description>Recent content on Keith Kee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sat, 28 Nov 2020 01:06:16 +0800</lastBuildDate><atom:link href="http://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Nov 2020 01:06:16 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I Learned</title>
-      <link>http://keithkeekw.github.io/til/</link>
+      <link>https://keithkeekw.github.io/til/</link>
       <pubDate>Mon, 30 Nov 2020 00:31:08 +0800</pubDate>
       
-      <guid>http://keithkeekw.github.io/til/</guid>
+      <guid>https://keithkeekw.github.io/til/</guid>
       <description>Here&amp;rsquo;s a collection of information which resonate deeply in me. This list will consist all range of topics from self-developement, money management and many more.</description>
     </item>
     
     <item>
       <title>Linux File Structure</title>
-      <link>http://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</link>
+      <link>https://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</link>
       <pubDate>Sat, 28 Nov 2020 01:06:16 +0800</pubDate>
       
-      <guid>http://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</guid>
+      <guid>https://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</guid>
       <description>Below is a table which explained all the file structure in Linux. With this table in place, it is easy to read and understand.</description>
     </item>
     
     <item>
       <title>Now</title>
-      <link>http://keithkeekw.github.io/now/</link>
+      <link>https://keithkeekw.github.io/now/</link>
       <pubDate>Wed, 25 Nov 2020 00:56:34 +0800</pubDate>
       
-      <guid>http://keithkeekw.github.io/now/</guid>
+      <guid>https://keithkeekw.github.io/now/</guid>
       <description>Last Updated: 25 Nov 2020 I am trying&amp;hellip;
  to work on this blog. to refresh my knowledge on Linux after a period of hiatus.</description>
     </item>
     
     <item>
       <title>How to Use Crontab</title>
-      <link>http://keithkeekw.github.io/posts/2020-11-23-how-to-use-crontab/</link>
+      <link>https://keithkeekw.github.io/posts/2020-11-23-how-to-use-crontab/</link>
       <pubDate>Mon, 23 Nov 2020 00:52:42 +0800</pubDate>
       
-      <guid>http://keithkeekw.github.io/posts/2020-11-23-how-to-use-crontab/</guid>
+      <guid>https://keithkeekw.github.io/posts/2020-11-23-how-to-use-crontab/</guid>
       <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.</description>
     </item>
     
     <item>
       <title>Who Am I</title>
-      <link>http://keithkeekw.github.io/about/</link>
+      <link>https://keithkeekw.github.io/about/</link>
       <pubDate>Sat, 21 Nov 2020 21:37:58 +0530</pubDate>
       
-      <guid>http://keithkeekw.github.io/about/</guid>
+      <guid>https://keithkeekw.github.io/about/</guid>
       <description>👋 Hi there! I am Keith Keeand I am an Application Support Engineer in a Broadcast Management System company. Currently I am residing in Malaysia.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://keithkeekw.github.io/posts/2020-11-21-hello-world/</link>
+      <link>https://keithkeekw.github.io/posts/2020-11-21-hello-world/</link>
       <pubDate>Sat, 21 Nov 2020 00:50:58 +0800</pubDate>
       
-      <guid>http://keithkeekw.github.io/posts/2020-11-21-hello-world/</guid>
+      <guid>https://keithkeekw.github.io/posts/2020-11-21-hello-world/</guid>
       <description>First and foremost, welcome to my blog where I mostly will post things about my learning notes in subject like Linux and book reviews.</description>
     </item>
     
