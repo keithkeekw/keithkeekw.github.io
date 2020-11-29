@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on keithkeekw@github</title>
-    <link>https://keithkeekw.github.io/posts/</link>
-    <description>Recent content in Posts on keithkeekw@github</description>
+    <title>Posts on Keith Kee</title>
+    <link>http://keithkeekw.github.io/posts/</link>
+    <description>Recent content in Posts on Keith Kee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 18:06:05 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sat, 28 Nov 2020 01:06:16 +0800</lastBuildDate><atom:link href="http://keithkeekw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux File Structure</title>
-      <link>https://keithkeekw.github.io/posts/linux-file-structure/</link>
-      <pubDate>Sat, 28 Nov 2020 18:06:05 +0800</pubDate>
+      <link>http://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</link>
+      <pubDate>Sat, 28 Nov 2020 01:06:16 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/linux-file-structure/</guid>
-      <description>Folder Name Description     /bin /bin is the directory that contains binaries, that is, some of the applications and programs you can run. You will find the ls program mentioned above in this directory, as well as other basic tools for making and removing files and directories, moving them around, and so on. There are more bin directories in other parts of the file system tree, but we’ll be talking about those in a minute.</description>
+      <guid>http://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</guid>
+      <description>Below is a table which explained all the file structure in Linux. With this table in place, it is easy to read and understand.</description>
     </item>
     
     <item>
       <title>How to Use Crontab</title>
-      <link>https://keithkeekw.github.io/posts/how-to-use-crontab/</link>
-      <pubDate>Mon, 23 Nov 2020 07:22:09 +0800</pubDate>
+      <link>http://keithkeekw.github.io/posts/2020-11-23-how-to-use-crontab/</link>
+      <pubDate>Mon, 23 Nov 2020 00:52:42 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/how-to-use-crontab/</guid>
-      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.  Cron Table Format * * * * * Command_to_execute | | | | | | | | | Day of the Week ( 0 - 6 ) ( Sunday = 0 ) | | | | | | | Month ( 1 - 12 ) | | | | | Day of Month ( 1 - 31 ) | | | Hour ( 0 - 23 ) | Min ( 0 - 59 ) Specifying multiple values in a field</description>
+      <guid>http://keithkeekw.github.io/posts/2020-11-23-how-to-use-crontab/</guid>
+      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://keithkeekw.github.io/posts/hello-world/</link>
-      <pubDate>Sat, 21 Nov 2020 18:30:17 +0800</pubDate>
+      <link>http://keithkeekw.github.io/posts/2020-11-21-hello-world/</link>
+      <pubDate>Sat, 21 Nov 2020 00:50:58 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/hello-world/</guid>
-      <description>First and foremost, welcome to my blog where I mostly will post things about my learning notes in subject like Linux and book reviews. There might some short snippet on stuff that I find very interesting to share and most will be around technology.</description>
+      <guid>http://keithkeekw.github.io/posts/2020-11-21-hello-world/</guid>
+      <description>First and foremost, welcome to my blog where I mostly will post things about my learning notes in subject like Linux and book reviews.</description>
     </item>
     
   </channel>

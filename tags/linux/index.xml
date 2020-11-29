@@ -1,43 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on I&#39;m Keith Kee KW</title>
-    <link>https://keithkeekw.github.io/tags/linux/</link>
-    <description>Recent content in linux on I&#39;m Keith Kee KW</description>
+    <title>linux on Keith Kee</title>
+    <link>http://keithkeekw.github.io/tags/linux/</link>
+    <description>Recent content in linux on Keith Kee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Keith Kee KW</copyright>
-    <lastBuildDate>Fri, 13 Nov 2020 22:40:37 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sat, 28 Nov 2020 01:06:16 +0800</lastBuildDate><atom:link href="http://keithkeekw.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basic Git Commands for Beginner</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</link>
-      <pubDate>Fri, 13 Nov 2020 22:40:37 +0800</pubDate>
+      <title>Linux File Structure</title>
+      <link>http://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</link>
+      <pubDate>Sat, 28 Nov 2020 01:06:16 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/2020-11-13-basic-git-commands-for-beginner/</guid>
-      <description>git clone   The function of the git clone to save a copy of the main branch from Github into the local hard drive.
-  Below is the example on how to use this command:
-git clone https://github.com/keithkeekw/test_repo.git Below are the example:
-    git status   It is to get the status of the working files. If there&amp;rsquo;s any changes on any files, it will list it accordingly.</description>
+      <guid>http://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</guid>
+      <description>Below is a table which explained all the file structure in Linux. With this table in place, it is easy to read and understand.</description>
     </item>
     
     <item>
       <title>How to Use Crontab</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-09-how-to-use-crontab/</link>
-      <pubDate>Mon, 09 Nov 2020 07:18:04 +0800</pubDate>
+      <link>http://keithkeekw.github.io/posts/2020-11-23-how-to-use-crontab/</link>
+      <pubDate>Mon, 23 Nov 2020 00:52:42 +0800</pubDate>
       
-      <guid>https://keithkeekw.github.io/posts/2020-11-09-how-to-use-crontab/</guid>
-      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.  Cron Table Format * * * * * Command_to_execute | | | | | | | | | Day of the Week ( 0 - 6 ) ( Sunday = 0 ) | | | | | | | Month ( 1 - 12 ) | | | | | Day of Month ( 1 - 31 ) | | | Hour ( 0 - 23 ) | Min ( 0 - 59 ) Specifying multiple values in a field</description>
-    </item>
-    
-    <item>
-      <title>How to Set Up Samba Server in Raspberry Pi</title>
-      <link>https://keithkeekw.github.io/posts/2020-11-06-how-to-set-up-samba-server-in-raspberry-pi/</link>
-      <pubDate>Fri, 06 Nov 2020 14:48:17 +0800</pubDate>
-      
-      <guid>https://keithkeekw.github.io/posts/2020-11-06-how-to-set-up-samba-server-in-raspberry-pi/</guid>
-      <description>Ensure the Raspberry Pi&amp;rsquo;s repositories are up-to-date by performing the command below in the terminal:
-sudo apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade -y   Next, proceed to install all the required packages from the remote repositories for Samba by running the command below:
-sudo apt-get install samba samba-common-bin   After the installation has been completed, we can proceed to create a folder to be shared via the Samba Server.</description>
+      <guid>http://keithkeekw.github.io/posts/2020-11-23-how-to-use-crontab/</guid>
+      <description>Cron is a tool to configure scheduled tasks in Unix/Linux system. It is like Task Scheduler in Windows system. crontab is a command to edit all the scheduled tasks in the machine.</description>
     </item>
     
   </channel>

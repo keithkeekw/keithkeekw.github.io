@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Linux File Structure - Keith Kee</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Linux File Structure" />
+<meta property="og:description" content="Below is a table which explained all the file structure in Linux. With this table in place, it is easy to read and understand." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/" />
+<meta property="article:published_time" content="2020-11-28T01:06:16+08:00" />
+<meta property="article:modified_time" content="2020-11-28T01:06:16+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Linux File Structure"/>
+<meta name="twitter:description" content="Below is a table which explained all the file structure in Linux. With this table in place, it is easy to read and understand."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://keithkeekw.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://keithkeekw.github.io/css/main.css" /><link rel="stylesheet" type="text/css" href="http://keithkeekw.github.io/css/dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="http://keithkeekw.github.io/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="http://keithkeekw.github.io/">
+	<h1 class="site-title"><a href="http://keithkeekw.github.io/">Keith Kee</a></h1>
+	<div class="site-description"><h2>Study notes on Linux, programming language and projects&hellip;</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/keithkeekw" title="Github"><i data-feather="github"></i></a><a href="https://www.twitter.com/keithkeekw" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.linkedin.com/in/keithkeekw" title="LinkedIn"><i data-feather="linkedin"></i></a><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/til">TIL</a>
+			</li>
+			
+			<li>
+				<a href="/now">Now</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Linux File Structure</h1>
+			<div class="meta">Posted at &mdash; Nov 28, 2020</div>
+		</div>
+
+		<div class="markdown">
+			<p>Below is a table which explained all the file structure in Linux. With this table in place, it is easy to read and understand.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Folder Name</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>/bin</code></td>
+<td style="text-align:left"><code>/bin</code> is the directory that contains binaries, that is, some of the applications and programs you can run. You will find the ls program mentioned above in this directory, as well as other basic tools for making and removing files and directories, moving them around, and so on. There are more bin directories in other parts of the file system tree, but we’ll be talking about those in a minute.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/boot</code></td>
+<td style="text-align:left">The <code>/boot</code> directory contains files required for starting your system. Do I have to say this? Okay, I&rsquo;ll say it: <strong>DO NOT TOUCH!</strong>. If you mess up one of the files in here, you may not be able to run your Linux and it is a pain to repair. On the other hand, don&rsquo;t worry too much about destroying your system by accident: you have to have superuser privileges to do that.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/dev</code></td>
+<td style="text-align:left"><em>/dev</em> contains <em>dev</em>ice files. Many of these are generated at boot time or even on the fly. For example, if you plug in a new webcam or a USB pendrive into your machine, a new device entry will automagically pop up here.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/etc</code></td>
+<td style="text-align:left"><code>/etc</code> is the directory where names start to get confusing. <code>/etc</code> gets its name from the earliest Unixes and it was literally “et cetera” because it was the dumping ground for system files administrators were not sure where else to put. Nowadays, it would be more appropriate to say that etc stands for “Everything to configure,” as it contains most, if not all system-wide configuration files. For example, the files that contain the name of your system, the users and their passwords, the names of machines on your network and when and where the partitions on your hard disks should be mounted are all in here. Again, if you are new to Linux, it may be best if you don’t touch too much in here until you have a better understanding of how things work.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/home</code></td>
+<td style="text-align:left">&lsquo;'/home&rsquo; is where you will find your users’ personal directories. In my case, under /home there are two directories: /home/paul, which contains all my stuff; and /home/guest, in case anybody needs to borrow my computer.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/lib</code></td>
+<td style="text-align:left"><code>/lib</code> is where libraries live. Libraries are files containing code that your applications can use. They contain snippets of code that applications use to draw windows on your desktop, control peripherals, or send files to your hard disk. There are more lib directories scattered around the file system, but this one, the one hanging directly off of / is special in that, among other things, it contains the all-important kernel modules. The kernel modules are drivers that make things like your video card, sound card, WiFi, printer, and so on, work.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/media</code></td>
+<td style="text-align:left">The <code>/media</code> directory is where external storage will be automatically mounted when you plug it in and try to access it. As opposed to most of the other items on this list, <code>/media</code> does not hail back to 1970s, mainly because inserting and detecting storage (pendrives, USB hard disks, SD cards, external SSDs, etc) on the fly, while a computer is running, is a relatively new thing.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/mnt</code></td>
+<td style="text-align:left">The <code>/mnt</code> directory, however, is a bit of remnant from days gone by. This is where you would manually mount storage devices or partitions. It is not used very often nowadays.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/opt</code></td>
+<td style="text-align:left">The <code>/opt</code> directory is often where software you compile (that is, you build yourself from source code and do not install from your distribution repositories) sometimes lands. Applications will end up in the <code>/opt/bin</code> directory and libraries in the <code>/opt/lib</code> directory. A slight digression: another place where applications and libraries end up in is <code>/usr/local</code>, When software gets installed here, there will also be <code>/usr/local/bin</code> and <code>/usr/local/lib</code> directories. What determines which software goes where is how the developers have configured the files that control the compilation and installation process.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/proc</code></td>
+<td style="text-align:left"><code>/proc</code>, like <code>/dev</code> is a virtual directory. It contains information about your computer, such as information about your CPU and the kernel your Linux system is running. As with <code>/dev</code>, the files and directories are generated when your computer starts, or on the fly, as your system is running and things change.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/root</code></td>
+<td style="text-align:left"><code>/root</code> is the home directory of the superuser (also known as the “Administrator”) of the system. It is separate from the rest of the users’ home directories <strong>BECAUSE YOU ARE NOT MEANT TO TOUCH IT</strong>. Keep your own stuff in you own directories, people.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/run</code></td>
+<td style="text-align:left"><code>/run</code> is another new directory. System processes use it to store temporary data for their own nefarious reasons. This is another one of those <strong>DO NOT TOUCH</strong> folders.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/sbin</code></td>
+<td style="text-align:left"><code>/sbin</code> is similar to /bin, but it contains applications that only the superuser (hence the initial s) will need. You can use these applications with the <code>sudo</code> command that temporarily concedes you superuser powers on many distributions. <code>/sbin</code> typically contains tools that can install stuff, delete stuff and format stuff. As you can imagine, some of these instructions are lethal if you use them improperly, so handle with care.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/usr</code></td>
+<td style="text-align:left">The <code>/usr</code> directory was where users' home directories were originally kept back in the early days of UNIX. However, now /home is where users kept their stuff as we saw above. These days, <code>/usr</code> contains a mish-mash of directories which in turn contain applications, libraries, documentation, wallpapers, icons and a long list of other stuff that need to be shared by applications and services. You will also find <code>bin</code>, <code>sbin</code> and <code>lib</code> directories in <code>/usr</code>. What is the difference with their root-hanging cousins? Not much nowadays. Originally, the /bin directory (hanging off of root) would contain very basic commands, like <code>ls</code>, <code>mv</code> and <code>rm</code>; the kind of commands that would come pre-installed in all UNIX/Linux installations, the bare minimum to run and maintain a system. <code>/usr/bin</code> on the other hand would contain stuff the users would install and run to use the system as a work station, things like word processors, web browsers, and other apps. But many modern Linux distributions just put everything into <code>/usr/bin</code> and have <code>/bin</code> point to <code>/usr/bin</code> just in case erasing it completely would break something. So, while Debian, Ubuntu and Mint still keep /bin and <code>/usr/bin</code> (and <code>/sbin</code> and <code>/usr/sbin</code>) separate; others, like Arch and its derivatives just have one  &ldquo;real&rdquo;  directory for binaries, <code>/usr/bin</code>, and the rest or bins are &ldquo;fake&rdquo; directories that point to <code>/usr/bin</code>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/srv</code></td>
+<td style="text-align:left">The <code>/srv</code> directory contains data for servers. If you are running a web server from your Linux box, your HTML files for your sites would go into <code>/srv/http</code> (or <code>/srv/www</code>). If you were running an FTP server, your files would go into <code>/srv/ftp</code>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/sys</code></td>
+<td style="text-align:left"><code>/sys</code> is another virtual directory like <code>/proc</code> and <code>/dev</code> and also contains information from devices connected to your computer. In some cases you can also manipulate those devices. I can, for example, change the brightness of the screen of my laptop by modifying the value stored in the /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/intel_backlight/brightness file (on your machine you will probably have a different file). But to do that you have to become superuser. The reason for that is, as with so many other virtual directories, messing with the contents and files in /sys can be dangerous and you can trash your system. <strong>DO NOT TOUCH</strong> until you are sure you know what you are doing.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/tmp</code></td>
+<td style="text-align:left"><code>/tmp</code> contains temporary files, usually placed there by applications that you are running. The files and directories often (not always) contain data that an application doesn&rsquo;t need right now, but may need later on. You can also use <code>/tmp</code> to store your own temporary files — <code>/tmp</code> is one of the few directories hanging off / that you can actually interact with without becoming superuser.</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/var</code></td>
+<td style="text-align:left"><code>/var</code> was originally given its name because its contents was deemed variable, in that it changed frequently. Today it is a bit of a misnomer because there are many other directories that also contain data that changes frequently, especially the virtual directories we saw above. Be that as it may, <code>/var</code> contains things like logs in the <code>/var/log</code> subdirectories. Logs are files that register events that happen on the system. If something fails in the kernel, it will be logged in a file in <code>/var/log</code>; if someone tries to break into your computer from outside, your firewall will also log the attempt here. It also contains spools for tasks. These &ldquo;tasks&rdquo;  can be the jobs you send to a shared printer</td>
+</tr>
+</tbody>
+</table>
+<p>*<em>Excerpt from Linux.com</em> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Here&rsquo;s a video from <a href="https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q">DorianDotSlash</a>:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/HbgzrKJvDRw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p><strong>Footnotes:</strong></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://www.linux.com/training-tutorials/linux-filesystem-explained/">The Linux Filesystem Explained - Linux.com</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/linux">linux</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright notice |  <a href="https://github.com/keithkeekw/ezhil-nord" >Ezhil-Nord theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>
