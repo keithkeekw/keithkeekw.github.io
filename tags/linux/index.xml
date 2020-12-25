@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sat, 28 Nov 2020 01:06:16 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Dec 2020 22:38:56 +0800</lastBuildDate><atom:link href="https://keithkeekw.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manage Youtube Channels with Newsboat and mpv</title>
+      <link>https://keithkeekw.github.io/posts/2020-12-25-managed-youtube-newsboat-mpv/</link>
+      <pubDate>Fri, 25 Dec 2020 22:38:56 +0800</pubDate>
+      
+      <guid>https://keithkeekw.github.io/posts/2020-12-25-managed-youtube-newsboat-mpv/</guid>
+      <description>Objectives:  To manage all my favourite YouTube Channels as well as newsfeed. To avoid all the ads from Youtube.  Softwares Required  mpv: A minimal video player for terminal console.</description>
+    </item>
+    
     <item>
       <title>Linux File Structure</title>
       <link>https://keithkeekw.github.io/posts/2020-11-28-linux-file-structure/</link>
