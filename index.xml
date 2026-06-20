@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Keith Kee KW</title>
+		<link>https://keithkeekw.github.io/</link>
+		<description>Recent content on Keith Kee KW</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 20 Jun 2026 22:44:03 +0800</lastBuildDate>
+		
+			<atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>What is Product Requirement Document (PRD)?</title>
+				<link>https://keithkeekw.github.io/posts/2026-06-20---product-requirement-document/</link>
+				<pubDate>Sat, 20 Jun 2026 22:44:03 +0800</pubDate>
+				<guid>https://keithkeekw.github.io/posts/2026-06-20---product-requirement-document/</guid>
+				<description>&lt;h2 id=&#34;what-is-product-requirements-document&#34;&gt;What is Product Requirements Document?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Product Requirements Document (PRD)&lt;/strong&gt; is a foundational document in product management that defines what a team should build and why it matters. It acts as a &lt;strong&gt;single source of truth&lt;/strong&gt; for all stakeholders—including engineering, design, marketing, and sales—to ensure everyone remains aligned throughout the development process. By clearly outlining a product&amp;rsquo;s purpose, features, and behavior, the PRD serves as a roadmap for turning ideas into reality.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

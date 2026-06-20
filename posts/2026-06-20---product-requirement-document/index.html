@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<div class="accent-bar"></div>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>What is Product Requirement Document (PRD)? — Keith Kee KW</title>
+<meta name="description" content="A guide identifying the key areas of a well-written PRD for agentic coding, with a ready-to-use prompt to capture all sections including problem statements, goals, features, navigation flow, UI design, and out-of-scope items.">
+<meta property="og:title" content="What is Product Requirement Document (PRD)? — Keith Kee KW">
+<meta property="og:description" content="A guide identifying the key areas of a well-written PRD for agentic coding, with a ready-to-use prompt to capture all sections including problem statements, goals, features, navigation flow, UI design, and out-of-scope items.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithkeekw.github.io/posts/2026-06-20---product-requirement-document/">
+<meta property="og:site_name" content="Keith Kee KW"><meta property="og:locale" content="en-us"><meta property="og:image" content="https://keithkeekw.github.io/images/og.png">
+  <meta property="article:published_time" content="2026-06-20T22:44:03&#43;08:00"><meta property="article:tag" content="technical document"><meta property="article:tag" content="project management">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What is Product Requirement Document (PRD)? — Keith Kee KW">
+<meta name="twitter:description" content="A guide identifying the key areas of a well-written PRD for agentic coding, with a ready-to-use prompt to capture all sections including problem statements, goals, features, navigation flow, UI design, and out-of-scope items."><meta name="twitter:image" content="https://keithkeekw.github.io/images/og.png">
+
+
+<link rel="canonical" href="https://keithkeekw.github.io/posts/2026-06-20---product-requirement-document/">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.min.789fbf23eb0aed096c48d2cb46ef879e1221efb0de5ee0d048b8dd3f4264f317.css" integrity="sha256-eJ&#43;/I&#43;sK7QlsSNLLRu&#43;HnhIh77DeXuDQSLjdP0Jk8xc="></head>
+<body><header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="site-title">Keith Kee KW</a>
+    <nav class="header-nav">
+        <a href="/posts/" class="nav-link">Notes</a>
+        <a href="/tags/" class="nav-link">Topics</a>
+      <button id="search-toggle" class="search-toggle" aria-label="Search" title="Search (⌘K)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+  <div id="reading-progress" class="progress-bar" role="progressbar" aria-hidden="true"></div>
+
+  <div id="search-overlay" class="search-overlay">
+  <div class="search-modal">
+    <div class="search-input-wrapper">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input id="search-input" type="text" class="search-input" placeholder="Search notes..." autocomplete="off" spellcheck="false">
+      <span class="search-close-hint">ESC</span>
+    </div>
+    <div id="search-results" class="search-results"></div>
+  </div>
+</div>
+<main><div class="post-single-wrapper"><article class="post-single">
+      <header class="post-header">
+        <h1 class="post-title">What is Product Requirement Document (PRD)?</h1>
+        <div class="post-header-meta">
+          <time datetime="2026-06-20">June 20, 2026</time>
+          <span class="reading-time">4 min read</span>
+            <div class="tags">
+                <a href="/tags/technical-document" class="tag">technical document</a>
+                <a href="/tags/project-management" class="tag">project management</a>
+            </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <h2 id="what-is-product-requirements-document">What is Product Requirements Document?</h2>
+<p>A <strong>Product Requirements Document (PRD)</strong> is a foundational document in product management that defines what a team should build and why it matters. It acts as a <strong>single source of truth</strong> for all stakeholders—including engineering, design, marketing, and sales—to ensure everyone remains aligned throughout the development process. By clearly outlining a product&rsquo;s purpose, features, and behavior, the PRD serves as a roadmap for turning ideas into reality.</p>
+<hr>
+<h2 id="important-areas-of-a-prd-and-why-they-matter">Important Areas of a PRD (and Why They Matter)</h2>
+<h3 id="1-overview--problem-statement">1. Overview &amp; Problem Statement</h3>
+<p><strong>Importance:</strong> Sets the context—why this project exists, what pain point it solves, and who it&rsquo;s for. Without this, both you and the AI agent can lose sight of the real goal.</p>
+<h3 id="2-goals--nongoals">2. Goals &amp; Non‑Goals</h3>
+<p><strong>Importance:</strong> Goals define what success looks like (e.g., &ldquo;retrieve and display ticket details via live API&rdquo;); Non‑Goals explicitly rule out scope creep (e.g., &ldquo;no authentication, no multi‑user support&rdquo;). This prevents the agent from wasting capacity on things you never asked for.</p>
+<h3 id="3-features-with-acceptance-criteria">3. Features with Acceptance Criteria</h3>
+<p><strong>Importance:</strong> Each feature should have detailed, testable acceptance criteria (e.g., &ldquo;each agent gets a separate review section, auto‑saved to localStorage&rdquo;). This gives the agent a <strong>deterministic signal</strong> to optimize toward—self‑correction loops become possible.</p>
+<h3 id="4-navigation-flow--user-journey">4. Navigation Flow / User Journey</h3>
+<p><strong>Importance:</strong> Describes how the user moves through the app (e.g., &ldquo;user configures settings → enters ticket number → inspects ticket info → reviews timeline → generates AI feedback&rdquo;). This ensures the agent understands the intended UX sequence and doesn&rsquo;t build isolated features that don&rsquo;t connect.</p>
+<h3 id="5-layout--ui-design">5. Layout &amp; UI Design</h3>
+<p><strong>Importance:</strong> Even simple sketch‑level layout decisions (sidebar, top bar, main content area) prevent the agent from making arbitrary UI choices that conflict with your mental model.</p>
+<h3 id="6-design-decisions">6. Design Decisions</h3>
+<p><strong>Importance:</strong> Captures key architectural choices (e.g., &ldquo;timeline lazy‑loads first 20 events from cached JSON, no paginated API calls&rdquo;). The agent needs these constraints to produce code that matches your intended trade‑offs.</p>
+<h3 id="7-out-of-scope">7. Out of Scope</h3>
+<p><strong>Importance:</strong> Explicitly listing what you are <strong>not</strong> building (e.g., &ldquo;no ticket editing, no batch processing, no cloud deployment&rdquo;) stops the agent from hallucinating extra work or suggesting irrelevant features.</p>
+<h3 id="8-shared-memory--context-management">8. Shared Memory &amp; Context Management</h3>
+<p><strong>Importance:</strong> A PRD acts as a <strong>Source of Truth</strong> that prevents amnesia across sessions. Using unique requirement IDs (e.g., BR‑001) and defining the Definition of Done lets the agent load only what it needs, reducing &ldquo;context rot.&rdquo;</p>
+<hr>
+<h2 id="prompt-to-capture-all-prd-areas">Prompt to Capture All PRD Areas</h2>
+<p>In this AI-driven world, most LLMs — especially general-purpose models — are able to assist you in generating a PRD.</p>
+<p>Paste this into a new note or directly into your AI assistant. It will guide you through every section needed for a complete, agent‑ready PRD.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>You are acting as a senior Technical Product Manager. I need to build a detailed Product Requirements Document (PRD) that will guide an agentic coding program to build the application. Walk me through each of the following areas one by one. For each area, ask me specific questions to capture all necessary details, then summarise my answers in a structured format.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Areas to cover:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> <span style="font-weight:bold">**Overview &amp; Problem Statement**</span> – What problem does the app solve? Who is it for? What is the current pain point?
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> <span style="font-weight:bold">**Goals &amp; Non‑Goals**</span>  
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">-</span> Goals: List 3‑5 clear, measurable objectives (e.g., &#34;Retrieve and display ticket data via live API&#34;).  
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">-</span> Non‑Goals: What is explicitly out of scope? (e.g., no authentication, no batch processing, no cloud deployment).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">3.</span> <span style="font-weight:bold">**Features with Acceptance Criteria**</span>  
+</span></span><span style="display:flex;"><span>   For each feature, ask:
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">-</span> What is the feature name and a brief description?
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">-</span> What are the exact acceptance criteria? Be specific about data sources, UI behaviour, error handling, persistence, and APIs.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">4.</span> <span style="font-weight:bold">**Navigation Flow**</span> – Describe the user&#39;s step‑by‑step journey through the app. Start from first load and end at a typical task completion.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">5.</span> <span style="font-weight:bold">**Layout &amp; UI Design**</span> – Describe the main layout components (e.g., sidebar, top bar, main area). Any specific visual decisions?
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">6.</span> <span style="font-weight:bold">**Design Decisions**</span> – What key architectural or technical choices should the agent follow? (e.g., data storage, lazy loading, caching strategies, API call patterns).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">7.</span> <span style="font-weight:bold">**Out of Scope**</span> – Anything not covered above that should be explicitly excluded to prevent scope creep.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">8.</span> <span style="font-weight:bold">**Context &amp; Memory Rules**</span> – How should the agent handle session memory? Should it store data in localStorage? Should it use unique IDs for requirements? Define the Definition of Done for the overall project.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>After I answer all sections, compile everything into a single structured PRD document with clear headings and bullet points. Use requirement IDs like BR‑001, UI‑001 where appropriate.
+</span></span></code></pre></div><p>This prompt will help you systematically fill in all the crucial sections. Once complete, you can feed the resulting PRD directly into your agentic coding program as its source of truth.</p>
+
+      </div>
+    </article>
+    <aside class="toc-wrapper">
+      <div class="toc-label">On this page</div>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-product-requirements-document">What is Product Requirements Document?</a></li>
+    <li><a href="#important-areas-of-a-prd-and-why-they-matter">Important Areas of a PRD (and Why They Matter)</a>
+      <ul>
+        <li><a href="#1-overview--problem-statement">1. Overview &amp; Problem Statement</a></li>
+        <li><a href="#2-goals--nongoals">2. Goals &amp; Non‑Goals</a></li>
+        <li><a href="#3-features-with-acceptance-criteria">3. Features with Acceptance Criteria</a></li>
+        <li><a href="#4-navigation-flow--user-journey">4. Navigation Flow / User Journey</a></li>
+        <li><a href="#5-layout--ui-design">5. Layout &amp; UI Design</a></li>
+        <li><a href="#6-design-decisions">6. Design Decisions</a></li>
+        <li><a href="#7-out-of-scope">7. Out of Scope</a></li>
+        <li><a href="#8-shared-memory--context-management">8. Shared Memory &amp; Context Management</a></li>
+      </ul>
+    </li>
+    <li><a href="#prompt-to-capture-all-prd-areas">Prompt to Capture All PRD Areas</a></li>
+  </ul>
+</nav>
+    </aside>
+  </div>
+</main><footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; 2026 Keith Kee KW | Made in 🇲🇾</span>
+    <div class="footer-social">
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.basic.min.js"></script><script src="/js/main.min.5cc7da2a7f8767e8a1178d3780c554c79a3bb70885a8e36e42ee6ea825497f95.js" integrity="sha256-XMfaKn&#43;HZ&#43;ihF403gMVUx5o7twiFqONuQu5uqCVJf5U="></script>
+</body>
+</html>
