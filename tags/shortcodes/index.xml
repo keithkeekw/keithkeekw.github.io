@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Shortcodes on Keith Kee KW</title>
+		<link>http://localhost:1313/tags/shortcodes/</link>
+		<description>Recent content in Shortcodes on Keith Kee KW</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Shortcode Test</title>
+				<link>http://localhost:1313/posts/shortcode-test/</link>
+				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/shortcode-test/</guid>
+				<description>&lt;h2 id=&#34;notices--callouts&#34;&gt;Notices / Callouts&lt;/h2&gt;&#xA;&lt;div class=&#34;notice notice-note&#34;&gt;&#xA;  &lt;div class=&#34;notice-heading&#34;&gt;&#xA;    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;20&#34; height=&#34;20&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;circle cx=&#34;12&#34; cy=&#34;12&#34; r=&#34;10&#34;/&gt;&lt;path d=&#34;M12 16v-4&#34;/&gt;&lt;path d=&#34;M12 8h.01&#34;/&gt;&lt;/svg&gt;&#xA;    &lt;span class=&#34;notice-title&#34;&gt;Note&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;notice-body&#34;&gt;&#xA;    &lt;p&gt;This is a &lt;strong&gt;note&lt;/strong&gt; callout. Use it for neutral information or context.&lt;/p&gt;&#xA;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;notice notice-info&#34;&gt;&#xA;  &lt;div class=&#34;notice-heading&#34;&gt;&#xA;    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;20&#34; height=&#34;20&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;circle cx=&#34;12&#34; cy=&#34;12&#34; r=&#34;10&#34;/&gt;&lt;path d=&#34;M12 16v-4&#34;/&gt;&lt;path d=&#34;M12 8h.01&#34;/&gt;&lt;/svg&gt;&#xA;    &lt;span class=&#34;notice-title&#34;&gt;Did you know?&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;notice-body&#34;&gt;&#xA;    &lt;p&gt;Hugo supports shortcodes for embedding rich content. This is an &lt;strong&gt;info&lt;/strong&gt; callout.&lt;/p&gt;&#xA;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;notice notice-tip&#34;&gt;&#xA;  &lt;div class=&#34;notice-heading&#34;&gt;&#xA;    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;20&#34; height=&#34;20&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;circle cx=&#34;12&#34; cy=&#34;12&#34; r=&#34;10&#34;/&gt;&lt;path d=&#34;M12 16v-4&#34;/&gt;&lt;path d=&#34;M12 8h.01&#34;/&gt;&lt;/svg&gt;&#xA;    &lt;span class=&#34;notice-title&#34;&gt;Tip&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;notice-body&#34;&gt;&#xA;    &lt;p&gt;Use the &lt;code&gt;notice&lt;/code&gt; shortcode with &lt;code&gt;type=&amp;quot;tip&amp;quot;&lt;/code&gt; for helpful tips and best practices.&lt;/p&gt;&#xA;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;notice notice-warning&#34;&gt;&#xA;  &lt;div class=&#34;notice-heading&#34;&gt;&#xA;    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;20&#34; height=&#34;20&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3&#34;/&gt;&lt;path d=&#34;M12 9v4&#34;/&gt;&lt;path d=&#34;M12 17h.01&#34;/&gt;&lt;/svg&gt;&#xA;    &lt;span class=&#34;notice-title&#34;&gt;Heads up&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;notice-body&#34;&gt;&#xA;    &lt;p&gt;This is a &lt;strong&gt;warning&lt;/strong&gt; callout. Use it when something needs attention.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
