@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Posts on Keith Kee KW</title>
-		<link>https://keithkeekw.github.io/posts/</link>
-		<description>Recent content in Posts on Keith Kee KW</description>
+		<title>Prompt Engineering on Keith Kee KW</title>
+		<link>https://keithkeekw.github.io/tags/prompt-engineering/</link>
+		<description>Recent content in Prompt Engineering on Keith Kee KW</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,20 +12,13 @@
 		
 			<lastBuildDate>Fri, 26 Jun 2026 21:48:03 +0800</lastBuildDate>
 		
-			<atom:link href="https://keithkeekw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://keithkeekw.github.io/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Race Prompt</title>
 				<link>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</link>
 				<pubDate>Fri, 26 Jun 2026 21:48:03 +0800</pubDate>
 				<guid>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</guid>
 				<description>&lt;h1 id=&#34;race-prompting-framework&#34;&gt;RACE Prompting Framework&lt;/h1&gt;&#xA;&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;RACE&lt;/strong&gt; is a structured prompting framework designed to reduce ambiguity and improve the quality of AI outputs. It works by breaking a prompt into four deliberate components — &lt;strong&gt;Role&lt;/strong&gt;, &lt;strong&gt;Action&lt;/strong&gt;, &lt;strong&gt;Context&lt;/strong&gt;, and &lt;strong&gt;Execute/Expected Output&lt;/strong&gt; — ensuring the model has everything it needs to respond with precision. Rather than prompting by instinct, RACE makes prompt construction a repeatable, teachable process.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-four-components&#34;&gt;The Four Components&lt;/h2&gt;&#xA;&lt;h3 id=&#34;r--role&#34;&gt;R — Role&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who should the AI be?&lt;/strong&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>What is Product Requirement Document (PRD)?</title>
-				<link>https://keithkeekw.github.io/posts/2026-06-20---product-requirement-document/</link>
-				<pubDate>Sat, 20 Jun 2026 22:44:03 +0800</pubDate>
-				<guid>https://keithkeekw.github.io/posts/2026-06-20---product-requirement-document/</guid>
-				<description>&lt;h2 id=&#34;what-is-product-requirements-document&#34;&gt;What is Product Requirements Document?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Product Requirements Document (PRD)&lt;/strong&gt; is a foundational document in product management that defines what a team should build and why it matters. It acts as a &lt;strong&gt;single source of truth&lt;/strong&gt; for all stakeholders—including engineering, design, marketing, and sales—to ensure everyone remains aligned throughout the development process. By clearly outlining a product&amp;rsquo;s purpose, features, and behavior, the PRD serves as a roadmap for turning ideas into reality.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

@@ -1,5 +1,12 @@
 [
   {
+    "title": "Race Prompt",
+    "permalink": "https://keithkeekw.github.io/posts/2026-06-26-race-prompt/",
+    "summary": "A guide to the RACE prompting framework — Role, Action, Context, and Execute — designed to reduce ambiguity and improve the quality of AI outputs through structured prompt construction.",
+    "date": "2026-06-26",
+    "tags": ["prompting","framework","AI","prompt engineering"]
+  },
+  {
     "title": "What is Product Requirement Document (PRD)?",
     "permalink": "https://keithkeekw.github.io/posts/2026-06-20---product-requirement-document/",
     "summary": "A guide identifying the key areas of a well-written PRD for agentic coding, with a ready-to-use prompt to capture all sections including problem statements, goals, features, navigation flow, UI design, and out-of-scope items.",
