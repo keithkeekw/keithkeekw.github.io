@@ -14,11 +14,11 @@
 		
 			<atom:link href="https://keithkeekw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Race Prompt</title>
+				<title>Race Prompting Framework</title>
 				<link>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</link>
 				<pubDate>Fri, 26 Jun 2026 21:48:03 +0800</pubDate>
 				<guid>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</guid>
-				<description>&lt;h1 id=&#34;race-prompting-framework&#34;&gt;RACE Prompting Framework&lt;/h1&gt;&#xA;&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;RACE&lt;/strong&gt; is a structured prompting framework designed to reduce ambiguity and improve the quality of AI outputs. It works by breaking a prompt into four deliberate components — &lt;strong&gt;Role&lt;/strong&gt;, &lt;strong&gt;Action&lt;/strong&gt;, &lt;strong&gt;Context&lt;/strong&gt;, and &lt;strong&gt;Execute/Expected Output&lt;/strong&gt; — ensuring the model has everything it needs to respond with precision. Rather than prompting by instinct, RACE makes prompt construction a repeatable, teachable process.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-four-components&#34;&gt;The Four Components&lt;/h2&gt;&#xA;&lt;h3 id=&#34;r--role&#34;&gt;R — Role&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who should the AI be?&lt;/strong&gt;&lt;/p&gt;</description>
+				<description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;RACE&lt;/strong&gt; is a structured prompting framework designed to reduce ambiguity and improve the quality of AI outputs. It works by breaking a prompt into four deliberate components — &lt;strong&gt;Role&lt;/strong&gt;, &lt;strong&gt;Action&lt;/strong&gt;, &lt;strong&gt;Context&lt;/strong&gt;, and &lt;strong&gt;Execute/Expected Output&lt;/strong&gt; — ensuring the model has everything it needs to respond with precision. Rather than prompting by instinct, RACE makes prompt construction a repeatable, teachable process.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-four-components&#34;&gt;The Four Components&lt;/h2&gt;&#xA;&lt;h3 id=&#34;r--role&#34;&gt;R — Role&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who should the AI be?&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>What is Product Requirement Document (PRD)?</title>
