@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 26 Jun 2026 21:48:03 +0800</lastBuildDate>
+			<lastBuildDate>Sat, 27 Jun 2026 23:33:03 +0800</lastBuildDate>
 		
 			<atom:link href="https://keithkeekw.github.io/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The 4D Framework of AI Fluency</title>
+				<link>https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/</link>
+				<pubDate>Sat, 27 Jun 2026 23:33:03 +0800</pubDate>
+				<guid>https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/</guid>
+				<description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Fluency&lt;/strong&gt; is the ability to interact with AI effectively, efficiently, ethically, and safely. It&amp;rsquo;s not about memorising prompt tricks — it&amp;rsquo;s about developing a repeatable approach to working &lt;em&gt;with&lt;/em&gt; AI, rather than just throwing questions at it.&lt;/p&gt;&#xA;&lt;p&gt;Anthropic&amp;rsquo;s &lt;strong&gt;4D Framework&lt;/strong&gt; defines four core skills that make up that fluency: &lt;strong&gt;Delegation&lt;/strong&gt;, &lt;strong&gt;Description&lt;/strong&gt;, &lt;strong&gt;Discernment&lt;/strong&gt;, and &lt;strong&gt;Diligence&lt;/strong&gt;. Before applying any of the four Ds, it helps to recognise the three distinct modes you can engage AI in — because fluency also means knowing which mode fits the task.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Race Prompting Framework</title>
 				<link>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</link>

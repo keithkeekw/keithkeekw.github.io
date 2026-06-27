@@ -1,5 +1,12 @@
 [
   {
+    "title": "The 4D Framework of AI Fluency",
+    "permalink": "https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/",
+    "summary": "A breakdown of Anthropic's 4D Framework — Delegation, Description, Discernment, and Diligence — the four core skills for working effectively with AI.",
+    "date": "2026-06-27",
+    "tags": ["ai","framework","AI","prompt engineering"]
+  },
+  {
     "title": "Race Prompting Framework",
     "permalink": "https://keithkeekw.github.io/posts/2026-06-26-race-prompt/",
     "summary": "A guide to the RACE prompting framework — Role, Action, Context, and Execute — designed to reduce ambiguity and improve the quality of AI outputs through structured prompt construction.",
