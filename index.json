@@ -1,5 +1,12 @@
 [
   {
+    "title": "Occam's Razor: Why Simpler Explanations Usually Win",
+    "permalink": "https://keithkeekw.github.io/posts/2026-07-04-occam-razor/",
+    "summary": "A practical guide to Occam's Razor: why simpler explanations usually win, how to apply it in software and life, and common mistakes to avoid.",
+    "date": "2026-07-04",
+    "tags": ["occam-razor","critical-thinking","problem-solving","mental-models","debugging","decision-making"]
+  },
+  {
     "title": "The 4D Framework of AI Fluency",
     "permalink": "https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/",
     "summary": "A breakdown of Anthropic's 4D Framework — Delegation, Description, Discernment, and Diligence — the four core skills for working effectively with AI.",
