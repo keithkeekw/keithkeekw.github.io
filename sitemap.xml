@@ -2,28 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://keithkeekw.github.io/tags/critical-thinking/</loc>
-    <lastmod>2026-07-04T20:08:00+08:00</lastmod>
-  </url><url>
     <loc>https://keithkeekw.github.io/tags/decision-making/</loc>
-    <lastmod>2026-07-04T20:08:00+08:00</lastmod>
+    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/incident-response/</loc>
+    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/</loc>
-    <lastmod>2026-07-04T20:08:00+08:00</lastmod>
+    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/tags/mental-models/</loc>
+    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/ooda-loop/</loc>
+    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/posts/</loc>
+    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/</loc>
+    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/</loc>
+    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/critical-thinking/</loc>
     <lastmod>2026-07-04T20:08:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/posts/2026-07-04-occam-razor/</loc>
     <lastmod>2026-07-04T20:08:00+08:00</lastmod>
   </url><url>
-    <loc>https://keithkeekw.github.io/posts/</loc>
-    <lastmod>2026-07-04T20:08:00+08:00</lastmod>
-  </url><url>
     <loc>https://keithkeekw.github.io/tags/problem-solving/</loc>
-    <lastmod>2026-07-04T20:08:00+08:00</lastmod>
-  </url><url>
-    <loc>https://keithkeekw.github.io/tags/</loc>
     <lastmod>2026-07-04T20:08:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/tags/ai/</loc>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Mental-Models on Keith Kee KW</title>
-		<link>https://keithkeekw.github.io/tags/mental-models/</link>
-		<description>Recent content in Mental-Models on Keith Kee KW</description>
+		<title>Incident-Response on Keith Kee KW</title>
+		<link>https://keithkeekw.github.io/tags/incident-response/</link>
+		<description>Recent content in Incident-Response on Keith Kee KW</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,20 +12,13 @@
 		
 			<lastBuildDate>Fri, 10 Jul 2026 12:00:00 +0800</lastBuildDate>
 		
-			<atom:link href="https://keithkeekw.github.io/tags/mental-models/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://keithkeekw.github.io/tags/incident-response/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Your Incident Response is Stuck on Observe</title>
 				<link>https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/</link>
 				<pubDate>Fri, 10 Jul 2026 12:00:00 +0800</pubDate>
 				<guid>https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/</guid>
 				<description>&lt;p&gt;&lt;em&gt;How I stopped running faster and started cycling smarter&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I used to think a good incident response was about speed. Faster alerts. Faster diagnosis. Faster rollbacks. More dashboards. More eyes on the screen.&lt;/p&gt;&#xA;&lt;p&gt;I was wrong. &lt;strong&gt;Speed without shared Orientation isn&amp;rsquo;t speed — it&amp;rsquo;s organized chaos.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The framework that changed how I run incident response came from a Korean War fighter pilot.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-ooda-loop-more-than-four-steps-in-a-circle&#34;&gt;The OODA Loop: More Than Four Steps in a Circle&lt;/h2&gt;&#xA;&lt;p&gt;John Boyd was a US Air Force colonel who noticed something strange. His F-86 Sabre pilots were consistently beating superior Soviet MiG-15s. The MiG was faster, could turn tighter, and climbed better. On paper, it should have won every engagement.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Occam&#39;s Razor: Why Simpler Explanations Usually Win</title>
-				<link>https://keithkeekw.github.io/posts/2026-07-04-occam-razor/</link>
-				<pubDate>Sat, 04 Jul 2026 20:08:00 +0800</pubDate>
-				<guid>https://keithkeekw.github.io/posts/2026-07-04-occam-razor/</guid>
-				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;You&amp;rsquo;re debugging a web application. The homepage loads slowly. Your first instinct is to blame the database query. But before you dive into query optimization, you check the network tab—and discover a 5MB uncompressed JavaScript bundle is the culprit.&lt;/p&gt;&#xA;&lt;p&gt;This is Occam&amp;rsquo;s Razor in action.&lt;/p&gt;&#xA;&lt;p&gt;The principle is simple: when multiple explanations fit the facts, the one requiring the fewest assumptions is usually correct. It&amp;rsquo;s not magic. It&amp;rsquo;s a practical heuristic that saves time, reduces overthinking, and points you toward the most likely answer first.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<div class="accent-bar"></div>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Your Incident Response is Stuck on Observe — Keith Kee KW</title>
+<meta name="description" content="Most incident response teams are stuck in an endless Observe loop — gathering data without building shared understanding. Here&#39;s how John Boyd&#39;s OODA framework fixes it.">
+<meta property="og:title" content="Your Incident Response is Stuck on Observe — Keith Kee KW">
+<meta property="og:description" content="Most incident response teams are stuck in an endless Observe loop — gathering data without building shared understanding. Here&#39;s how John Boyd&#39;s OODA framework fixes it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/">
+<meta property="og:site_name" content="Keith Kee KW"><meta property="og:locale" content="en-us"><meta property="og:image" content="https://keithkeekw.github.io/">
+  <meta property="article:published_time" content="2026-07-10T12:00:00&#43;08:00"><meta property="article:tag" content="ooda-loop"><meta property="article:tag" content="incident-response"><meta property="article:tag" content="mental-models"><meta property="article:tag" content="decision-making">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your Incident Response is Stuck on Observe — Keith Kee KW">
+<meta name="twitter:description" content="Most incident response teams are stuck in an endless Observe loop — gathering data without building shared understanding. Here&#39;s how John Boyd&#39;s OODA framework fixes it."><meta name="twitter:image" content="https://keithkeekw.github.io/">
+
+
+<link rel="canonical" href="https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.min.b39c751d325de8f90ad9914e392f5f203335fbc7111d228a2965f694168dbef6.css" integrity="sha256-s5x1HTJd6PkK2ZFOOS9fIDM1&#43;8cRHSKKKWX2lBaNvvY="></head>
+<body><header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="site-title">Keith Kee KW</a>
+    <nav class="header-nav">
+        <a href="/posts/" class="nav-link">Notes</a>
+        <a href="/tags/" class="nav-link">Topics</a>
+        <a href="/resume/" class="nav-link">Resume</a>
+      <button id="search-toggle" class="search-toggle" aria-label="Search" title="Search (⌘K)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+  <div id="reading-progress" class="progress-bar" role="progressbar" aria-hidden="true"></div>
+
+  <div id="search-overlay" class="search-overlay" style="display:none">
+  <div class="search-modal">
+    <div class="search-input-wrapper">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input id="search-input" type="text" class="search-input" placeholder="Search notes..." autocomplete="off" spellcheck="false">
+      <span class="search-close-hint">ESC</span>
+    </div>
+    <div id="search-results" class="search-results"></div>
+  </div>
+</div>
+<main><div class="post-single-wrapper"><article class="post-single">
+      <header class="post-header">
+        <h1 class="post-title">Your Incident Response is Stuck on Observe</h1>
+        <div class="post-header-meta">
+          <time datetime="2026-07-10">July 10, 2026</time>
+          <span class="reading-time">6 min read</span>
+            <div class="tags">
+                <a href="/tags/ooda-loop" class="tag">ooda-loop</a>
+                <a href="/tags/incident-response" class="tag">incident-response</a>
+                <a href="/tags/mental-models" class="tag">mental-models</a>
+                <a href="/tags/decision-making" class="tag">decision-making</a>
+            </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <p><em>How I stopped running faster and started cycling smarter</em></p>
+<p>I used to think a good incident response was about speed. Faster alerts. Faster diagnosis. Faster rollbacks. More dashboards. More eyes on the screen.</p>
+<p>I was wrong. <strong>Speed without shared Orientation isn&rsquo;t speed — it&rsquo;s organized chaos.</strong></p>
+<p>The framework that changed how I run incident response came from a Korean War fighter pilot.</p>
+<hr>
+<h2 id="the-ooda-loop-more-than-four-steps-in-a-circle">The OODA Loop: More Than Four Steps in a Circle</h2>
+<p>John Boyd was a US Air Force colonel who noticed something strange. His F-86 Sabre pilots were consistently beating superior Soviet MiG-15s. The MiG was faster, could turn tighter, and climbed better. On paper, it should have won every engagement.</p>
+<p>What the F-86 had was a <strong>wider canopy</strong> (better visibility) and <strong>hydraulic flight controls</strong> (faster stick inputs). The pilot could see more, and act on what he saw, faster. Boyd distilled this into the OODA Loop <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
+<pre tabindex="0"><code>                  ┌────────────┐
+                  │  Observe   │
+                  │ (gather    │
+                  │  raw data) │
+                  └────┬───────┘
+                       │
+                  ┌────▼─────┐
+          ┌───────│  Orient  │◄──────┐
+          │       │(synthesis│       │
+          │       │ mental   │       │
+          │       │  model)  │       │
+          │       └────┬─────┘       │
+          │            │             │
+          │       ┌────▼─────┐       │
+          │       │  Decide  │       │
+          │       │(select   │       │
+          │       │ action)  │       │
+          │       └────┬─────┘       │
+          │            │             │
+          │       ┌────▼─────┐       │
+          └───────│   Act    │───────┘
+                  │(execute) │
+                  └──────────┘
+</code></pre><ol>
+<li><strong>Observe</strong> — Gather raw data from the environment. No analysis, no interpretation. Just facts.</li>
+<li><strong>Orient</strong> — Synthesize observations into a shared mental model. Identify patterns, form hypotheses, classify severity. <em>Boyd called this the most critical phase.</em> <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li><strong>Decide</strong> — Select a course of action. The Incident Commander makes the call, not the committee.</li>
+<li><strong>Act</strong> — Execute the decision with visibility, then immediately observe the effects to feed the next cycle.</li>
+</ol>
+<p>Boyd&rsquo;s actual framework — refined over two decades — has a critical detail most people miss: <strong>every feedback loop flows through Orientation</strong>. Not Observe. Not Decide. Orientation <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>If your team&rsquo;s Orientation is wrong, every Decision and Action that follows will be wrong too. And you&rsquo;ll never know, because you&rsquo;ll be too busy looking for more data.</p>
+<h3 id="ooda-vs-pdca-why-one-fits-incident-response-better">OODA vs. PDCA: Why One Fits Incident Response Better</h3>
+<table>
+	<thead>
+			<tr>
+					<th>Dimension</th>
+					<th>OODA Loop</th>
+					<th>PDCA Cycle</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Commitment style</td>
+					<td>Late commitment (adapt as you go)</td>
+					<td>Early commitment (plan first)</td>
+			</tr>
+			<tr>
+					<td>Designed for</td>
+					<td>Competitive, unfolding environments</td>
+					<td>Quality improvement, stable processes</td>
+			</tr>
+			<tr>
+					<td>Handling uncertainty</td>
+					<td>Acts with incomplete information</td>
+					<td>Requires data before acting</td>
+			</tr>
+			<tr>
+					<td>Center of gravity</td>
+					<td>Orientation (shared mental model)</td>
+					<td>Planning (up-front analysis)</td>
+			</tr>
+			<tr>
+					<td>Best fit</td>
+					<td>Incident response, crisis, war rooms</td>
+					<td>Process improvement, manufacturing</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="the-problem-most-teams-are-just-observing">The Problem: Most Teams Are Just Observing</h2>
+<p>Watch any major incident response unfold. The pattern is always the same:</p>
+<ol>
+<li>Alert fires</li>
+<li>Someone posts: &ldquo;Is anyone else seeing this?&rdquo;</li>
+<li>Multiple people start gathering data independently</li>
+<li>Someone posts: &ldquo;Payment API is returning 503s&rdquo;</li>
+<li>Someone else: &ldquo;Database CPU is at 95%&rdquo;</li>
+<li>Someone else: &ldquo;We had a deployment 20 minutes ago&rdquo;</li>
+<li>Silence</li>
+<li>More data gathering</li>
+<li>Finally: &ldquo;Should we roll back?&rdquo;</li>
+<li>Debate. More data gathering.</li>
+</ol>
+<p>The team is cycling through Observe → Observe → Observe → Observe.</p>
+<p>The incident, meanwhile, is degrading services, spreading impact, and compounding customer damage. It&rsquo;s cycling through <em>its</em> loop faster than you&rsquo;re cycling through yours.</p>
+<p>You&rsquo;re losing because <strong>no one is doing the hard work of Orientation</strong>.</p>
+<hr>
+<h2 id="what-shared-orientation-actually-looks-like">What Shared Orientation Actually Looks Like</h2>
+<p>Here&rsquo;s what a structured OODA rhythm looks like in practice:</p>
+<pre tabindex="0"><code>Cycle 1 (T+0 to T+15):     Cycle 2 (T+15 to T+30):
+Observe ─► Orient           Observe ─► Orient
+    ▲          │                ▲          │
+    │     Decide                │     Decide
+    │          │                │          │
+    └── Act ───┘                └── Act ───┘
+         │                           │
+         └────── feeds next ─────────┘
+</code></pre><p><strong>T+0 to T+5 — Observe.</strong> Everyone posts raw data to a single channel. No analysis. No &ldquo;I think.&rdquo; Just facts: &ldquo;Payment API 503 since 14:32. Database CPU at 95%. Deployment v2.4.1 pushed at 14:15.&rdquo;</p>
+<p><strong>T+5 to T+10 — Orient.</strong> The Incident Commander synthesizes. &ldquo;Here&rsquo;s what I&rsquo;m hearing. Three observations point to database. One points to network. We&rsquo;re going with the database hypothesis this cycle.&rdquo; Hypotheses get posted visibly. Debates happen here.</p>
+<p><strong>T+10 to T+15 — Decide.</strong> The IC makes the call. Not by committee. &ldquo;Alice: fail over to standby. Bob: monitor success rates. Charlie: post status update.&rdquo;</p>
+<p><strong>T+15 onward — Act + immediate re-Observe.</strong> Actions are executed with visibility. Effects are monitored immediately. New observations feed the next cycle.</p>
+<p><strong>Every 15 minutes, repeat.</strong> Each cycle faster and more informed than the last.</p>
+<hr>
+<h2 id="best-practices-for-running-the-ooda-incident-rhythm">Best Practices for Running the OODA Incident Rhythm</h2>
+<ul>
+<li><strong>Pre-define roles.</strong> Incident Commander, Responders, Communicator, Scribe. Everyone knows their OODA phase focus before the alert fires.</li>
+<li><strong>Pre-build playbooks.</strong> Familiar failure patterns (database outage, API degradation, auth failure) let your team use Boyd&rsquo;s <em>Implicit Guidance and Control</em> — flowing directly from Orient to Act without explicit deliberation <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</li>
+<li><strong>Use a shared surface.</strong> A single Slack channel, war room board, or incident management tool where observations, hypotheses, decisions, and actions are all visible in real time.</li>
+<li><strong>Timebox relentlessly.</strong> The IC owns the clock. If Orient takes 10 minutes, Decide gets 5. No phase expands beyond its budget.</li>
+</ul>
+<hr>
+<h2 id="where-most-teams-trip-up">Where Most Teams Trip Up</h2>
+<p>I&rsquo;ve seen the same six pitfalls everywhere I&rsquo;ve worked:</p>
+<table>
+	<thead>
+			<tr>
+					<th>#</th>
+					<th>Pitfall</th>
+					<th>Symptom</th>
+					<th>Fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td><strong>The Observe Trap</strong></td>
+					<td>&ldquo;Let&rsquo;s wait for more data.&rdquo;</td>
+					<td>IC enforces the timebox. Boyd&rsquo;s loop is designed for incomplete information.</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td><strong>The Orient War</strong></td>
+					<td>&ldquo;I think it&rsquo;s the database.&rdquo; &ldquo;No, it&rsquo;s the network.&rdquo;</td>
+					<td>Post both hypotheses. Let evidence decide. IC breaks ties.</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td><strong>The Decide Vacuum</strong></td>
+					<td>Everyone looks at everyone else.</td>
+					<td>That&rsquo;s why the IC role exists. Make sure someone owns the call.</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td><strong>ACT-and-Forget</strong></td>
+					<td>Actions executed but nobody checks results.</td>
+					<td>Every action must be followed by explicit observation.</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td><strong>The Solo OODA</strong></td>
+					<td>One senior person does all four phases alone.</td>
+					<td>Distribute the phases across the team. Hero mode isn&rsquo;t scalable.</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td><strong>Skipping the Post-Mortem</strong></td>
+					<td>Incident resolved, everyone moves on.</td>
+					<td>The post-incident review is how you build better playbooks — closing the loop for next time.</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="the-one-question-test">The One-Question Test</h2>
+<p>Next time you&rsquo;re in a war room, ask yourself: <strong>is your team cycling through OODA, or just Observing really fast?</strong></p>
+<p>If everyone is gathering data and nobody is synthesizing — if the IC hasn&rsquo;t declared a hypothesis, if decisions are deferred for &ldquo;more information&rdquo; — you&rsquo;re stuck in the Observe trap.</p>
+<p>The fix isn&rsquo;t faster alerts or more dashboards. It&rsquo;s a structured rhythm. A shared Orientation. An IC who owns the clock and makes the call.</p>
+<p>Because you can&rsquo;t get inside the incident&rsquo;s loop if your team doesn&rsquo;t even know where it&rsquo;s going.</p>
+<hr>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ol>
+<li><strong>Orientation is everything.</strong> Speed without shared understanding is noise. Invest the first 10 minutes in building a shared mental model.</li>
+<li><strong>Enforce the rhythm.</strong> Timebox each OODA phase. T+5 Observe, T+10 Orient, T+15 Decide. No phase overruns.</li>
+<li><strong>Distribute the loop.</strong> The IC Orients and Decides. Responders Observe and Act. No one person does all four phases.</li>
+<li><strong>Build playbooks for speed.</strong> Known patterns let your team flow from Orient to Act directly — Boyd&rsquo;s Implicit Guidance and Control.</li>
+<li><strong>Review every incident.</strong> The post-mortem feeds better Orientation for the next one.</li>
+</ol>
+<hr>
+<h2 id="further-reading">Further Reading</h2>
+<p>If you enjoyed this, you might also like:</p>
+<ul>
+<li>The OODA Loop — Full deep dive into Boyd&rsquo;s original model and its applications across military, business, and cybersecurity</li>
+<li>Mental Models for Engineering Leaders — A toolkit of thinking frameworks for technical decision-making</li>
+<li>Second-Level Thinking — Why the best decisions trace the chain of consequences, not just the first effect</li>
+</ul>
+<hr>
+<h2 id="references">References</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Boyd, John R. (1995). <em>The Essence of Winning and Losing.</em> Five-slide briefing containing Boyd&rsquo;s only published diagram of the OODA Loop.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Boyd, John R. (1976). <em>Destruction and Creation.</em> U.S. Army Command and General Staff College. Core epistemological argument underpinning the OODA framework.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Richards, Chet (2004). <em>Certain to Win: The Strategy of John Boyd Applied to Business.</em> Explores Implicit Guidance and Control as a mechanism for accelerating decision cycles.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+      </div>
+    </article>
+    <aside class="toc-wrapper">
+      <div class="toc-label">On this page</div>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-ooda-loop-more-than-four-steps-in-a-circle">The OODA Loop: More Than Four Steps in a Circle</a>
+      <ul>
+        <li><a href="#ooda-vs-pdca-why-one-fits-incident-response-better">OODA vs. PDCA: Why One Fits Incident Response Better</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-problem-most-teams-are-just-observing">The Problem: Most Teams Are Just Observing</a></li>
+    <li><a href="#what-shared-orientation-actually-looks-like">What Shared Orientation Actually Looks Like</a></li>
+    <li><a href="#best-practices-for-running-the-ooda-incident-rhythm">Best Practices for Running the OODA Incident Rhythm</a></li>
+    <li><a href="#where-most-teams-trip-up">Where Most Teams Trip Up</a></li>
+    <li><a href="#the-one-question-test">The One-Question Test</a></li>
+    <li><a href="#key-takeaways">Key Takeaways</a></li>
+    <li><a href="#further-reading">Further Reading</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+    </aside>
+  </div>
+</main><footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; 2026 Keith Kee KW | Made in 🇲🇾</span>
+    <div class="footer-social">
+        <a href="https://github.com/keithkeekw" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>
+        <a href="https://linkedin.com/in/keithkeekw" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://x.com/keithkeekw" target="_blank" rel="noopener noreferrer" title="X / Twitter" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="/index.xml" target="_blank" rel="noopener noreferrer" title="RSS" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415a3.29 3.29 0 013.291 3.291A3.29 3.29 0 013.292 24 3.29 3.29 0 010 20.706a3.29 3.29 0 013.291-3.291zM.815 10.04c.604 0 .604.002.604.002 7.058.203 12.58 5.722 12.788 12.785 0 0 .002.22.002.604h-3.013c0-.56-.005-.67-.015-.822a9.534 9.534 0 00-9.406-9.474c-.103-.003-.258-.007-.96-.009V10.04z"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.basic.min.js"></script><script src="/js/main.min.ed5a02d7206eacd5b35119c9915ed648468bb47368bbaa459617a13156e59fc9.js" integrity="sha256-7VoC1yBurNWzURnJkV7WSEaLtHNou6pFlhehMVbln8k="></script>
+</body>
+</html>

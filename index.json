@@ -1,5 +1,12 @@
 [
   {
+    "title": "Your Incident Response is Stuck on Observe",
+    "permalink": "https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/",
+    "summary": "Most incident response teams are stuck in an endless Observe loop — gathering data without building shared understanding. Here's how John Boyd's OODA framework fixes it.",
+    "date": "2026-07-10",
+    "tags": ["ooda-loop","incident-response","mental-models","decision-making"]
+  },
+  {
     "title": "Occam's Razor: Why Simpler Explanations Usually Win",
     "permalink": "https://keithkeekw.github.io/posts/2026-07-04-occam-razor/",
     "summary": "A practical guide to Occam's Razor: why simpler explanations usually win, how to apply it in software and life, and common mistakes to avoid.",

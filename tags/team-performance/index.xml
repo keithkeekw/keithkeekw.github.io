@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Team-Performance on Keith Kee KW</title>
+		<link>http://localhost:1313/tags/team-performance/</link>
+		<description>Recent content in Team-Performance on Keith Kee KW</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 10 Jul 2026 12:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/team-performance/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Your Incident Response is Stuck on Observe</title>
+				<link>http://localhost:1313/posts/2026-07-10-incident-response-ooda/</link>
+				<pubDate>Fri, 10 Jul 2026 12:00:00 +0800</pubDate>
+				<guid>http://localhost:1313/posts/2026-07-10-incident-response-ooda/</guid>
+				<description>&lt;p&gt;&lt;em&gt;How I stopped running faster and started cycling smarter&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I used to think a good incident response was about speed. Faster alerts. Faster diagnosis. Faster rollbacks. More dashboards. More eyes on the screen.&lt;/p&gt;&#xA;&lt;p&gt;I was wrong. &lt;strong&gt;Speed without shared Orientation isn&amp;rsquo;t speed — it&amp;rsquo;s organized chaos.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The framework that changed how I run incident response came from a Korean War fighter pilot.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-ooda-loop-more-than-four-steps-in-a-circle&#34;&gt;The OODA Loop: More Than Four Steps in a Circle&lt;/h2&gt;&#xA;&lt;p&gt;John Boyd was a US Air Force colonel who noticed something strange. His F-86 Sabre pilots were consistently beating superior Soviet MiG-15s. The MiG was faster, could turn tighter, and climbed better. On paper, it should have won every engagement.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
