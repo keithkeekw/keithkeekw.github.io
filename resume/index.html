@@ -28,7 +28,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="/css/main.min.b39c751d325de8f90ad9914e392f5f203335fbc7111d228a2965f694168dbef6.css" integrity="sha256-s5x1HTJd6PkK2ZFOOS9fIDM1&#43;8cRHSKKKWX2lBaNvvY="></head>
+
+<script>
+  (function() {
+    var theme = localStorage.getItem('theme');
+    if (!theme) {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
+
+<link rel="stylesheet" href="/css/main.min.cbedcb3cd940aceba4ba31408355fda78aedc56f03540715c251b99174684529.css" integrity="sha256-y&#43;3LPNlArOukujFAg1X9p4rtxW8DVAcVwlG5kXRoRSk="></head>
 <body><header class="site-header">
   <div class="header-inner">
     <a href="/" class="site-title">Keith Kee KW</a>
@@ -36,6 +47,11 @@
         <a href="/posts/" class="nav-link">Notes</a>
         <a href="/tags/" class="nav-link">Topics</a>
         <a href="/resume/" class="nav-link">Resume</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
       <button id="search-toggle" class="search-toggle" aria-label="Search" title="Search (⌘K)">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="11" cy="11" r="8"/>
@@ -303,7 +319,6 @@
     </div>
   </div>
 </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.basic.min.js"></script><script src="/js/main.min.ed5a02d7206eacd5b35119c9915ed648468bb47368bbaa459617a13156e59fc9.js" integrity="sha256-7VoC1yBurNWzURnJkV7WSEaLtHNou6pFlhehMVbln8k="></script>
+<script src="/js/bundle.min.0c177081a74f296a987560e0e5a79de384eb684b1a90421154ba7980f077c773.js" integrity="sha256-DBdwgadPKWqYdWDg5aed44TraEsakEIRVLp5gPB3x3M="></script>
 </body>
 </html>
