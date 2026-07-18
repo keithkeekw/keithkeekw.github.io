@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 10 Jul 2026 12:00:00 +0800</lastBuildDate>
+			<lastBuildDate>Sat, 18 Jul 2026 00:00:00 +0800</lastBuildDate>
 		
 			<atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Incident Manager&#39;s OS: OODA × RACI × Incident Commander</title>
+				<link>https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/</link>
+				<pubDate>Sat, 18 Jul 2026 00:00:00 +0800</pubDate>
+				<guid>https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/</guid>
+				<description>&lt;h1 id=&#34;the-incident-managers-os-ooda--raci--incident-commander&#34;&gt;The Incident Manager&amp;rsquo;s OS: OODA × RACI × Incident Commander&lt;/h1&gt;&#xA;&lt;p&gt;Speed alone isn&amp;rsquo;t enough. A fast team without clear roles is just organized noise — tasks duplicating, decisions stalling, everyone looking at everyone else while the incident escalates.&lt;/p&gt;&#xA;&lt;p&gt;The OODA Loop sets the rhythm. You need two more layers to make it work: &lt;strong&gt;role clarity&lt;/strong&gt; and &lt;strong&gt;decision ownership&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Think of this as an operating system for your incident response. Every OS manages three things — process scheduling (tempo), resource allocation (roles), and system calls (decisions) — so applications don&amp;rsquo;t have to reinvent the wheel. The Incident Manager&amp;rsquo;s OS does the same for crisis response. It is the shared foundation that handles the three things that break in every major incident:&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Your Incident Response is Stuck on Observe</title>
 				<link>https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/</link>

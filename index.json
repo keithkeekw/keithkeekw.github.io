@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Incident Manager's OS: OODA × RACI × Incident Commander",
+    "permalink": "https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/",
+    "summary": "Speed alone isn't enough. OODA gives you rhythm, RACI gives you role clarity, and the Incident Commander gives you decision ownership. Three layers that turn crisis response into something repeatable.",
+    "date": "2026-07-18",
+    "tags": ["ooda","raci","incident-commander","incident-response","leadership","decision-making"]
+  },
+  {
     "title": "Your Incident Response is Stuck on Observe",
     "permalink": "https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/",
     "summary": "Most incident response teams are stuck in an endless Observe loop — gathering data without building shared understanding. Here's how John Boyd's OODA framework fixes it.",
