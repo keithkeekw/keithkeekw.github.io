@@ -1,5 +1,12 @@
 [
   {
+    "title": "The New Technical Manager Manual",
+    "permalink": "https://keithkeekw.github.io/posts/2026-07-26-new-technical-manager-manual/",
+    "summary": "Five essential frameworks every new technical manager should internalise — from giving feedback without ego to running incidents without chaos.",
+    "date": "2026-07-26",
+    "tags": ["management","leadership","technical-manager","feedback","career"]
+  },
+  {
     "title": "The Incident Manager's OS: OODA × RACI × Incident Commander",
     "permalink": "https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/",
     "summary": "Speed alone isn't enough. OODA gives you rhythm, RACI gives you role clarity, and the Incident Commander gives you decision ownership. Three layers that turn crisis response into something repeatable.",
