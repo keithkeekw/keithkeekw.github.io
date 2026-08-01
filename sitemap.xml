@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/hanlons-razor/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/management/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/mental-models/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/posts/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/quality/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/support/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/</loc>
+    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://keithkeekw.github.io/tags/career/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/tags/feedback/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://keithkeekw.github.io/</loc>
-    <lastmod>2026-07-26T08:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://keithkeekw.github.io/tags/leadership/</loc>
-    <lastmod>2026-07-26T08:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://keithkeekw.github.io/tags/management/</loc>
-    <lastmod>2026-07-26T08:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://keithkeekw.github.io/posts/</loc>
-    <lastmod>2026-07-26T08:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://keithkeekw.github.io/tags/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/tags/technical-manager/</loc>
@@ -46,9 +61,6 @@
   </url><url>
     <loc>https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/</loc>
     <lastmod>2026-07-18T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://keithkeekw.github.io/tags/mental-models/</loc>
-    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/tags/ooda-loop/</loc>
     <lastmod>2026-07-10T12:00:00+08:00</lastmod>

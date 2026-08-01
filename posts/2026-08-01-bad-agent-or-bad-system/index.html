@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<div class="accent-bar"></div>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bad Agent or Bad System — Keith Kee KW</title>
+<meta name="description" content="Hanlon&#39;s Razor applied to ticket quality review — how to diagnose whether a low-scoring ticket is a skill gap, a process gap, or a tooling gap before you blame anyone, including in multi-agent tickets.">
+<meta property="og:title" content="Bad Agent or Bad System — Keith Kee KW">
+<meta property="og:description" content="Hanlon&#39;s Razor applied to ticket quality review — how to diagnose whether a low-scoring ticket is a skill gap, a process gap, or a tooling gap before you blame anyone, including in multi-agent tickets.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/">
+<meta property="og:site_name" content="Keith Kee KW"><meta property="og:locale" content="en-us"><meta property="og:image" content="https://keithkeekw.github.io/">
+  <meta property="article:published_time" content="2026-08-01T00:00:00&#43;08:00"><meta property="article:tag" content="mental-models"><meta property="article:tag" content="support"><meta property="article:tag" content="quality"><meta property="article:tag" content="management"><meta property="article:tag" content="hanlons-razor">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bad Agent or Bad System — Keith Kee KW">
+<meta name="twitter:description" content="Hanlon&#39;s Razor applied to ticket quality review — how to diagnose whether a low-scoring ticket is a skill gap, a process gap, or a tooling gap before you blame anyone, including in multi-agent tickets."><meta name="twitter:image" content="https://keithkeekw.github.io/">
+
+
+<link rel="canonical" href="https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+
+<script>
+  (function() {
+    var theme = localStorage.getItem('theme');
+    if (!theme) {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
+
+<link rel="stylesheet" href="/css/main.min.cbedcb3cd940aceba4ba31408355fda78aedc56f03540715c251b99174684529.css" integrity="sha256-y&#43;3LPNlArOukujFAg1X9p4rtxW8DVAcVwlG5kXRoRSk="></head>
+<body><header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="site-title">Keith Kee KW</a>
+    <nav class="header-nav">
+        <a href="/posts/" class="nav-link">Notes</a>
+        <a href="/tags/" class="nav-link">Topics</a>
+        <a href="/resume/" class="nav-link">Resume</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <button id="search-toggle" class="search-toggle" aria-label="Search" title="Search (⌘K)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+  <div id="reading-progress" class="progress-bar" role="progressbar" aria-hidden="true"></div>
+
+  <div id="search-overlay" class="search-overlay" style="display:none">
+  <div class="search-modal">
+    <div class="search-input-wrapper">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input id="search-input" type="text" class="search-input" placeholder="Search notes..." autocomplete="off" spellcheck="false">
+      <span class="search-close-hint">ESC</span>
+    </div>
+    <div id="search-results" class="search-results"></div>
+  </div>
+</div>
+<main><div class="post-single-wrapper"><article class="post-single">
+      <header class="post-header">
+        <h1 class="post-title">Bad Agent or Bad System</h1>
+        <div class="post-header-meta">
+          <time datetime="2026-08-01">August 1, 2026</time>
+          <span class="reading-time">6 min read</span>
+            <div class="tags">
+                <a href="/tags/mental-models" class="tag">mental-models</a>
+                <a href="/tags/support" class="tag">support</a>
+                <a href="/tags/quality" class="tag">quality</a>
+                <a href="/tags/management" class="tag">management</a>
+                <a href="/tags/hanlons-razor" class="tag">hanlons-razor</a>
+            </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <p><em>Never attribute to malice what is adequately explained by ignorance or error.</em></p>
+<h2 id="the-qa-review-everyone-has-sat-through">The QA Review Everyone Has Sat Through</h2>
+<p>The weekly ticket review. The dashboard is up. A ticket scored 1/5 on technical accuracy. The agent recommended a workaround that didn&rsquo;t fix the problem, and the customer reopened the ticket twice.</p>
+<p>The manager looks at the name on the ticket and says: &ldquo;We need to talk to Sarah about this.&rdquo;</p>
+<p>Wait. Do we?</p>
+<p>The instinct is reflexive: a bad ticket means a bad agent. But most of the time, that conclusion is wrong. Not because the agent is innocent, but because the question is aimed at the wrong target.</p>
+<p>Hanlon&rsquo;s Razor points it somewhere useful.</p>
+<h2 id="why-it-matters">Why It Matters</h2>
+<p>Blame-based QA doesn&rsquo;t fix quality. It does three things instead:</p>
+<ol>
+<li><strong>It teaches agents to hide mistakes.</strong> When a score feels like a verdict on your character, you stop surfacing problems and start covering them.</li>
+<li><strong>It games the rubric.</strong> The moment a QA score becomes a target, agents optimize the score, not the outcome — the exact Goodhart trap I wrote about in <em>Why Your Support Metrics Are Lying to You</em>.</li>
+<li><strong>It misses the actual cause.</strong> If three different agents make the same mistake this month, you have a system problem wearing an individual&rsquo;s name. Blaming each agent one by one means never fixing the root cause.</li>
+</ol>
+<p>Hanlon&rsquo;s Razor gives you a better starting point: before you blame the person, check whether the system could have produced this.</p>
+<h2 id="the-core-concept">The Core Concept</h2>
+<p>Hanlon&rsquo;s Razor says: never attribute to malice that which is adequately explained by ignorance or error. Popularized in <em>Murphy&rsquo;s Law Book Two</em> (1980), it&rsquo;s the human-behavior counterpart to <a href="/posts/2026-07-04-occam-razor/">Occam&rsquo;s Razor</a>: where Occam cuts unnecessary complexity in explanations, Hanlon cuts unnecessary blame in judgments.</p>
+<p>It&rsquo;s not naive. It doesn&rsquo;t say people never fail deliberately. It says intent is the last explanation you should reach for, not the first. The cost of a wrong malice verdict is a demotivated agent and a root cause that stays buried.</p>
+<h2 id="the-three-gap-diagnosis">The Three-Gap Diagnosis</h2>
+<p>When a ticket scores low, don&rsquo;t ask &ldquo;who&rsquo;s the bad agent?&rdquo; Ask: which gap produced this?</p>
+<table>
+	<thead>
+			<tr>
+					<th>Gap</th>
+					<th>The question</th>
+					<th>The fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Skill gap</strong></td>
+					<td>Did the agent know how?</td>
+					<td>Training, coaching, shadowing</td>
+			</tr>
+			<tr>
+					<td><strong>Process gap</strong></td>
+					<td>Could they have done it right even if they knew?</td>
+					<td>KB fix, workflow redesign, checklist</td>
+			</tr>
+			<tr>
+					<td><strong>Tooling gap</strong></td>
+					<td>Did the environment make it impossible?</td>
+					<td>System change, automation, permissions</td>
+			</tr>
+	</tbody>
+</table>
+<p>Malice is the fourth, empty quadrant. If you find yourself concluding an agent deliberately wrote a bad ticket, you need extraordinary evidence — and you should still check gaps one through three first. Pattern usually wins over personality.</p>
+<h3 id="the-same-ticket-three-different-fixes">The Same Ticket, Three Different Fixes</h3>
+<p>A ticket gets flagged: agent gave a wrong resolution path, customer reopened.</p>
+<ul>
+<li><strong>Skill gap</strong> — Sarah never saw the KB article on this error because it was added last week and she wasn&rsquo;t trained on it. Fix: add it to onboarding, assign a coaching session.</li>
+<li><strong>Process gap</strong> — The article exists but it&rsquo;s buried under four outdated versions with the same title, so nobody can find it. Fix: consolidate the KB, add a routing rule.</li>
+<li><strong>Tooling gap</strong> — KB search is broken in the helpdesk UI and returns no results for known-error queries. Fix: ticket to engineering, escalate.</li>
+</ul>
+<p>Same ticket. Same score. Three completely different fixes — and only one of them involves talking to the agent.</p>
+<p>The diagnosis changes the conversation from &ldquo;what&rsquo;s wrong with Sarah?&rdquo; to &ldquo;what&rsquo;s wrong with the environment that made this easy to get wrong?&rdquo; That conversation improves quality.</p>
+<h2 id="the-multi-agent-trap-who-do-you-blame">The Multi-Agent Trap: Who Do You Blame?</h2>
+<p>Multi-agent tickets make this harder. Most tickets in a global support environment aren&rsquo;t handled by one agent — they&rsquo;re triaged, researched, handed off, and closed by three or four people.</p>
+<p>If your QA program scores only the closing agent, you&rsquo;re applying Hanlon&rsquo;s Razor to the wrong person. The resolver who did the core diagnosis gets no credit; the closer gets blamed for a resolution quality they never controlled.</p>
+<p>Before you score anyone on a multi-agent ticket, run the attribution question:</p>
+<ol>
+<li><strong>Who resolved?</strong> — the agent who diagnosed root cause and delivered the solution</li>
+<li><strong>Who collaborated?</strong> — input, research, partial handling</li>
+<li><strong>Who closed?</strong> — communicated the resolution, ticket hygiene, CSAT follow-up</li>
+</ol>
+<p>Score the resolver on technical accuracy. Score the closer on closure quality. Score the handoff on documentation. If the handoff notes are missing, that&rsquo;s not a resolver problem or a closer problem — that&rsquo;s a process gap in how your team hands off tickets.</p>
+<p>This is where the gap diagnosis proves itself: the low score usually sits in the seams between agents, not inside any single one of them.</p>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li><strong>Ask the one question that matters.</strong> Before every low score: &ldquo;What would make this ticket easy to write correctly?&rdquo; If you can&rsquo;t answer with a system change, you haven&rsquo;t diagnosed yet.</li>
+<li><strong>Pair the score with SBI feedback.</strong> <a href="/posts/2026-07-26-new-technical-manager-manual/">SBI (Situation-Behavior-Impact)</a> feedback: &ldquo;Your ticket scored 2/5 on documentation because the resolution steps weren&rsquo;t recorded&rdquo; is data. &ldquo;You&rsquo;re sloppy&rdquo; is a verdict.</li>
+<li><strong>Track gap patterns, not just scores.</strong> After a month of reviews, tally: how many fails were skill vs. process vs. tooling? If 60% are process gaps, your coaching program is aimed at the wrong layer.</li>
+<li><strong>In multi-agent tickets, attribute before you score.</strong> Tag the resolver, collaborator, and closer — score each on what they actually owned.</li>
+</ol>
+<h2 id="common-mistakes">Common Mistakes</h2>
+<ul>
+<li><strong>Hanlon&rsquo;s as an excuse.</strong> &ldquo;It&rsquo;s always the system&rdquo; is the same laziness as &ldquo;it&rsquo;s always the agent.&rdquo; The razor is a starting point for diagnosis, not a blanket pardon.</li>
+<li><strong>Applying it to others, not yourself.</strong> Your QA review process can have gaps too — misweighted rubrics, sampled tickets that miss the pattern. Diagnose your own process with the same three gaps.</li>
+<li><strong>Skipping the pattern check.</strong> A one-off mistake is likely skill or circumstance. Five agents making the same mistake is a structure problem. The distinction changes the fix.</li>
+<li><strong>Only checking gaps when the score is low.</strong> Praise is diagnosis too — when an agent nails a hard ticket, ask which structures made that easy, and keep them.</li>
+</ul>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ol>
+<li>A bad ticket is a symptom. The cause lives in one of three places: skill, process, or tooling.</li>
+<li>Blame is a cost, not a diagnosis. It demotivates and buries the real root cause.</li>
+<li>In multi-agent tickets, attribute the score to the right role before you judge anyone.</li>
+<li>Track gaps, not just scores — the pattern tells you where to intervene.</li>
+<li>Ask &ldquo;what would make this ticket easy to write correctly?&rdquo; before you ever say someone&rsquo;s name.</li>
+</ol>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="/posts/2026-07-04-occam-razor/">Occam&rsquo;s Razor</a> — the razor family: cutting explanations vs. cutting blame</li>
+<li><a href="/posts/2026-07-26-new-technical-manager-manual/">The New Technical Manager Manual</a> — SBI feedback and defining quality with rubrics</li>
+</ul>
+<p><em>You may also enjoy:</em> Inversion, Chesterton&rsquo;s Fence, and the Rumsfeld Known-Knowns Matrix.</p>
+
+      </div>
+    </article>
+    <aside class="toc-wrapper">
+      <div class="toc-label">On this page</div>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-qa-review-everyone-has-sat-through">The QA Review Everyone Has Sat Through</a></li>
+    <li><a href="#why-it-matters">Why It Matters</a></li>
+    <li><a href="#the-core-concept">The Core Concept</a></li>
+    <li><a href="#the-three-gap-diagnosis">The Three-Gap Diagnosis</a>
+      <ul>
+        <li><a href="#the-same-ticket-three-different-fixes">The Same Ticket, Three Different Fixes</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-multi-agent-trap-who-do-you-blame">The Multi-Agent Trap: Who Do You Blame?</a></li>
+    <li><a href="#best-practices">Best Practices</a></li>
+    <li><a href="#common-mistakes">Common Mistakes</a></li>
+    <li><a href="#key-takeaways">Key Takeaways</a></li>
+    <li><a href="#further-reading">Further Reading</a></li>
+  </ul>
+</nav>
+    </aside>
+  </div>
+</main><footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; 2026 Keith Kee KW | Made in 🇲🇾</span>
+    <div class="footer-social">
+        <a href="https://github.com/keithkeekw" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>
+        <a href="https://linkedin.com/in/keithkeekw" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://x.com/keithkeekw" target="_blank" rel="noopener noreferrer" title="X / Twitter" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="/index.xml" target="_blank" rel="noopener noreferrer" title="RSS" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415a3.29 3.29 0 013.291 3.291A3.29 3.29 0 013.292 24 3.29 3.29 0 010 20.706a3.29 3.29 0 013.291-3.291zM.815 10.04c.604 0 .604.002.604.002 7.058.203 12.58 5.722 12.788 12.785 0 0 .002.22.002.604h-3.013c0-.56-.005-.67-.015-.822a9.534 9.534 0 00-9.406-9.474c-.103-.003-.258-.007-.96-.009V10.04z"/></svg></a>
+    </div>
+  </div>
+</footer>
+<script src="/js/bundle.min.0c177081a74f296a987560e0e5a79de384eb684b1a90421154ba7980f077c773.js" integrity="sha256-DBdwgadPKWqYdWDg5aed44TraEsakEIRVLp5gPB3x3M="></script>
+</body>
+</html>

@@ -1,5 +1,12 @@
 [
   {
+    "title": "Bad Agent or Bad System",
+    "permalink": "https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/",
+    "summary": "Hanlon's Razor applied to ticket quality review — how to diagnose whether a low-scoring ticket is a skill gap, a process gap, or a tooling gap before you blame anyone, including in multi-agent tickets.",
+    "date": "2026-08-01",
+    "tags": ["mental-models","support","quality","management","hanlons-razor"]
+  },
+  {
     "title": "The New Technical Manager Manual",
     "permalink": "https://keithkeekw.github.io/posts/2026-07-26-new-technical-manager-manual/",
     "summary": "Five essential frameworks every new technical manager should internalise — from giving feedback without ego to running incidents without chaos.",
