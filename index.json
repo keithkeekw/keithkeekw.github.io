@@ -1,56 +1,56 @@
 [
   {
     "title": "Bad Agent or Bad System",
-    "permalink": "https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/",
+    "permalink": "http://localhost:1313/posts/2026-08-01-bad-agent-or-bad-system/",
     "summary": "Hanlon's Razor applied to ticket quality review — how to diagnose whether a low-scoring ticket is a skill gap, a process gap, or a tooling gap before you blame anyone, including in multi-agent tickets.",
     "date": "2026-08-01",
     "tags": ["mental-models","support","quality","management","hanlons-razor"]
   },
   {
     "title": "The New Technical Manager Manual",
-    "permalink": "https://keithkeekw.github.io/posts/2026-07-26-new-technical-manager-manual/",
+    "permalink": "http://localhost:1313/posts/2026-07-26-new-technical-manager-manual/",
     "summary": "Five essential frameworks every new technical manager should internalise — from giving feedback without ego to running incidents without chaos.",
     "date": "2026-07-26",
     "tags": ["management","leadership","technical-manager","feedback","career"]
   },
   {
     "title": "The Incident Manager's OS: OODA × RACI × Incident Commander",
-    "permalink": "https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/",
+    "permalink": "http://localhost:1313/posts/2026-07-18-incident-manager-os/",
     "summary": "Speed alone isn't enough. OODA gives you rhythm, RACI gives you role clarity, and the Incident Commander gives you decision ownership. Three layers that turn crisis response into something repeatable.",
     "date": "2026-07-18",
     "tags": ["ooda","raci","incident-commander","incident-response","leadership","decision-making"]
   },
   {
     "title": "Your Incident Response is Stuck on Observe",
-    "permalink": "https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/",
+    "permalink": "http://localhost:1313/posts/2026-07-10-incident-response-ooda/",
     "summary": "Most incident response teams are stuck in an endless Observe loop — gathering data without building shared understanding. Here's how John Boyd's OODA framework fixes it.",
     "date": "2026-07-10",
     "tags": ["ooda-loop","incident-response","mental-models","decision-making"]
   },
   {
     "title": "Occam's Razor: Why Simpler Explanations Usually Win",
-    "permalink": "https://keithkeekw.github.io/posts/2026-07-04-occam-razor/",
+    "permalink": "http://localhost:1313/posts/2026-07-04-occam-razor/",
     "summary": "A practical guide to Occam's Razor: why simpler explanations usually win, how to apply it in software and life, and common mistakes to avoid.",
     "date": "2026-07-04",
     "tags": ["critical-thinking","problem-solving","mental-models","decision-making"]
   },
   {
     "title": "The 4D Framework of AI Fluency",
-    "permalink": "https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/",
+    "permalink": "http://localhost:1313/posts/2026-06-27-ai-fluency/",
     "summary": "A breakdown of Anthropic's 4D Framework — Delegation, Description, Discernment, and Diligence — the four core skills for working effectively with AI.",
     "date": "2026-06-27",
     "tags": ["ai","framework","prompt engineering"]
   },
   {
     "title": "Race Prompting Framework",
-    "permalink": "https://keithkeekw.github.io/posts/2026-06-26-race-prompt/",
+    "permalink": "http://localhost:1313/posts/2026-06-26-race-prompt/",
     "summary": "A guide to the RACE prompting framework — Role, Action, Context, and Execute — designed to reduce ambiguity and improve the quality of AI outputs through structured prompt construction.",
     "date": "2026-06-26",
     "tags": ["prompting","framework","AI","prompt engineering"]
   },
   {
     "title": "What is Product Requirement Document (PRD)?",
-    "permalink": "https://keithkeekw.github.io/posts/2026-06-20---product-requirement-document/",
+    "permalink": "http://localhost:1313/posts/2026-06-20---product-requirement-document/",
     "summary": "A guide identifying the key areas of a well-written PRD for agentic coding, with a ready-to-use prompt to capture all sections including problem statements, goals, features, navigation flow, UI design, and out-of-scope items.",
     "date": "2026-06-20",
     "tags": ["technical document","project management"]

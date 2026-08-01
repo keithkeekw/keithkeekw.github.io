@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Support on Keith Kee KW</title>
-		<link>https://keithkeekw.github.io/tags/support/</link>
+		<link>http://localhost:1313/tags/support/</link>
 		<description>Recent content in Support on Keith Kee KW</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0800</lastBuildDate>
 		
-			<atom:link href="https://keithkeekw.github.io/tags/support/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/support/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Bad Agent or Bad System</title>
-				<link>https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/</link>
+				<link>http://localhost:1313/posts/2026-08-01-bad-agent-or-bad-system/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0800</pubDate>
-				<guid>https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/</guid>
+				<guid>http://localhost:1313/posts/2026-08-01-bad-agent-or-bad-system/</guid>
 				<description>&lt;p&gt;&lt;em&gt;Never attribute to malice what is adequately explained by ignorance or error.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-qa-review-everyone-has-sat-through&#34;&gt;The QA Review Everyone Has Sat Through&lt;/h2&gt;&#xA;&lt;p&gt;The weekly ticket review. The dashboard is up. A ticket scored 1/5 on technical accuracy. The agent recommended a workaround that didn&amp;rsquo;t fix the problem, and the customer reopened the ticket twice.&lt;/p&gt;&#xA;&lt;p&gt;The manager looks at the name on the ticket and says: &amp;ldquo;We need to talk to Sarah about this.&amp;rdquo;&lt;/p&gt;</description>
 			</item>
 	</channel>
