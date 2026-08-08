@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Keith Kee KW</title>
-		<link>http://localhost:1313/</link>
+		<link>https://keithkeekw.github.io/</link>
 		<description>Recent content on Keith Kee KW</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,70 +10,77 @@
 		
 		
 		
-			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0800</lastBuildDate>
+			<lastBuildDate>Sat, 08 Aug 2026 00:00:00 +0800</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://keithkeekw.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Runbook for When Your Brain Goes Offline</title>
+				<link>https://keithkeekw.github.io/posts/2026-08-08-outage-response-runbook/</link>
+				<pubDate>Sat, 08 Aug 2026 00:00:00 +0800</pubDate>
+				<guid>https://keithkeekw.github.io/posts/2026-08-08-outage-response-runbook/</guid>
+				<description>&lt;p&gt;When a service goes down, the first thing that breaks isn&amp;rsquo;t the server. It&amp;rsquo;s your brain. Adrenaline hits. Tunnel vision sets in. You know you should do something, but you freeze.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve seen smart engineers freeze. I&amp;rsquo;ve done it. A runbook tells you what to do, in what order, so you don&amp;rsquo;t have to think.&lt;/p&gt;&#xA;&lt;p&gt;This is the runbook I built. It runs on OODA: Observe, Orient, Decide, Act. One reason: make the obvious automatic when nothing feels obvious.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Bad Agent or Bad System</title>
-				<link>http://localhost:1313/posts/2026-08-01-bad-agent-or-bad-system/</link>
+				<link>https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-08-01-bad-agent-or-bad-system/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/</guid>
 				<description>&lt;p&gt;&lt;em&gt;Never attribute to malice what is adequately explained by ignorance or error.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-qa-review-everyone-has-sat-through&#34;&gt;The QA Review Everyone Has Sat Through&lt;/h2&gt;&#xA;&lt;p&gt;The weekly ticket review. The dashboard is up. A ticket scored 1/5 on technical accuracy. The agent recommended a workaround that didn&amp;rsquo;t fix the problem, and the customer reopened the ticket twice.&lt;/p&gt;&#xA;&lt;p&gt;The manager looks at the name on the ticket and says: &amp;ldquo;We need to talk to Sarah about this.&amp;rdquo;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The New Technical Manager Manual</title>
-				<link>http://localhost:1313/posts/2026-07-26-new-technical-manager-manual/</link>
+				<link>https://keithkeekw.github.io/posts/2026-07-26-new-technical-manager-manual/</link>
 				<pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-07-26-new-technical-manager-manual/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-07-26-new-technical-manager-manual/</guid>
 				<description>&lt;p&gt;You just became a technical manager. Congratulations — and good luck.&lt;/p&gt;&#xA;&lt;p&gt;Nobody hands you a manual when you get promoted. One day you fix things. The next, you&amp;rsquo;re responsible for the people who fix things — plus the process, escalations, headcount planning, and the emotional wellbeing of a team that expects you to have answers.&lt;/p&gt;&#xA;&lt;p&gt;The skills that got you promoted — technical depth, personal output, being the go-to fixer — are not the skills that will make you successful as a manager. You need a different toolkit. This is the manual I wish I had.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The Incident Manager&#39;s OS: OODA × RACI × Incident Commander</title>
-				<link>http://localhost:1313/posts/2026-07-18-incident-manager-os/</link>
+				<link>https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/</link>
 				<pubDate>Sat, 18 Jul 2026 00:00:00 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-07-18-incident-manager-os/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/</guid>
 				<description>&lt;p&gt;Speed alone isn&amp;rsquo;t enough. A fast team without clear roles is just organized noise — tasks duplicating, decisions stalling, everyone looking at everyone else while the incident escalates.&lt;/p&gt;&#xA;&lt;p&gt;The OODA Loop sets the rhythm. You need two more layers to make it work: &lt;strong&gt;role clarity&lt;/strong&gt; and &lt;strong&gt;decision ownership&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Think of this as an operating system for your incident response. Every OS manages three things — process scheduling (tempo), resource allocation (roles), and system calls (decisions) — so applications don&amp;rsquo;t have to reinvent the wheel. The Incident Manager&amp;rsquo;s OS does the same for crisis response. It is the shared foundation that handles the three things that break in every major incident:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Your Incident Response is Stuck on Observe</title>
-				<link>http://localhost:1313/posts/2026-07-10-incident-response-ooda/</link>
+				<link>https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/</link>
 				<pubDate>Fri, 10 Jul 2026 12:00:00 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-07-10-incident-response-ooda/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/</guid>
 				<description>&lt;p&gt;&lt;em&gt;How I stopped running faster and started cycling smarter&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I used to think a good incident response was about speed. Faster alerts. Faster diagnosis. Faster rollbacks. More dashboards. More eyes on the screen.&lt;/p&gt;&#xA;&lt;p&gt;I was wrong. &lt;strong&gt;Speed without shared Orientation isn&amp;rsquo;t speed — it&amp;rsquo;s organized chaos.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The framework that changed how I run incident response came from a Korean War fighter pilot.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-ooda-loop-more-than-four-steps-in-a-circle&#34;&gt;The OODA Loop: More Than Four Steps in a Circle&lt;/h2&gt;&#xA;&lt;p&gt;John Boyd was a US Air Force colonel who noticed something strange. His F-86 Sabre pilots were consistently beating superior Soviet MiG-15s. The MiG was faster, could turn tighter, and climbed better. On paper, it should have won every engagement.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Occam&#39;s Razor: Why Simpler Explanations Usually Win</title>
-				<link>http://localhost:1313/posts/2026-07-04-occam-razor/</link>
+				<link>https://keithkeekw.github.io/posts/2026-07-04-occam-razor/</link>
 				<pubDate>Sat, 04 Jul 2026 20:08:00 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-07-04-occam-razor/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-07-04-occam-razor/</guid>
 				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;You&amp;rsquo;re debugging a web application. The homepage loads slowly. Your first instinct is to blame the database query. But before you dive into query optimization, you check the network tab—and discover a 5MB uncompressed JavaScript bundle is the culprit.&lt;/p&gt;&#xA;&lt;p&gt;This is Occam&amp;rsquo;s Razor in action.&lt;/p&gt;&#xA;&lt;p&gt;The principle is simple: when multiple explanations fit the facts, the one requiring the fewest assumptions is usually correct. It&amp;rsquo;s not magic. It&amp;rsquo;s a practical heuristic that saves time, reduces overthinking, and points you toward the most likely answer first.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The 4D Framework of AI Fluency</title>
-				<link>http://localhost:1313/posts/2026-06-27-ai-fluency/</link>
+				<link>https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/</link>
 				<pubDate>Sat, 27 Jun 2026 23:33:03 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-06-27-ai-fluency/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/</guid>
 				<description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Fluency&lt;/strong&gt; is the ability to interact with AI effectively, efficiently, ethically, and safely. It&amp;rsquo;s not about memorising prompt tricks — it&amp;rsquo;s about developing a repeatable approach to working &lt;em&gt;with&lt;/em&gt; AI, rather than just throwing questions at it.&lt;/p&gt;&#xA;&lt;p&gt;Anthropic&amp;rsquo;s &lt;strong&gt;4D Framework&lt;/strong&gt; defines four core skills that make up that fluency: &lt;strong&gt;Delegation&lt;/strong&gt;, &lt;strong&gt;Description&lt;/strong&gt;, &lt;strong&gt;Discernment&lt;/strong&gt;, and &lt;strong&gt;Diligence&lt;/strong&gt;. Before applying any of the four Ds, it helps to recognise the three distinct modes you can engage AI in — because fluency also means knowing which mode fits the task.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Race Prompting Framework</title>
-				<link>http://localhost:1313/posts/2026-06-26-race-prompt/</link>
+				<link>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</link>
 				<pubDate>Fri, 26 Jun 2026 21:48:03 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-06-26-race-prompt/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</guid>
 				<description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;RACE&lt;/strong&gt; is a structured prompting framework designed to reduce ambiguity and improve the quality of AI outputs. It works by breaking a prompt into four deliberate components — &lt;strong&gt;Role&lt;/strong&gt;, &lt;strong&gt;Action&lt;/strong&gt;, &lt;strong&gt;Context&lt;/strong&gt;, and &lt;strong&gt;Execute/Expected Output&lt;/strong&gt; — ensuring the model has everything it needs to respond with precision. Rather than prompting by instinct, RACE makes prompt construction a repeatable, teachable process.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-four-components&#34;&gt;The Four Components&lt;/h2&gt;&#xA;&lt;h3 id=&#34;r--role&#34;&gt;R — Role&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who should the AI be?&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>What is Product Requirement Document (PRD)?</title>
-				<link>http://localhost:1313/posts/2026-06-20---product-requirement-document/</link>
+				<link>https://keithkeekw.github.io/posts/2026-06-20-product-requirement-document/</link>
 				<pubDate>Sat, 20 Jun 2026 22:44:03 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-06-20---product-requirement-document/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-06-20-product-requirement-document/</guid>
 				<description>&lt;h2 id=&#34;what-is-product-requirements-document&#34;&gt;What is Product Requirements Document?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Product Requirements Document (PRD)&lt;/strong&gt; is a foundational document in product management that defines what a team should build and why it matters. It acts as a &lt;strong&gt;single source of truth&lt;/strong&gt; for all stakeholders—including engineering, design, marketing, and sales—to ensure everyone remains aligned throughout the development process. By clearly outlining a product&amp;rsquo;s purpose, features, and behavior, the PRD serves as a roadmap for turning ideas into reality.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Resume</title>
-				<link>http://localhost:1313/resume/</link>
+				<link>https://keithkeekw.github.io/resume/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/resume/</guid>
+				<guid>https://keithkeekw.github.io/resume/</guid>
 				<description>&lt;p&gt;Seasoned Technical Support Manager with extensive experience overseeing Helpdesk operations and leading cross-functional support teams. Proven track record in delivering exceptional service, streamlining operational processes, and driving continuous improvement in fast-paced, enterprise-level environments. Adept at incident management, team development, and fostering collaboration across departments to ensure high-quality outcomes and client satisfaction.&lt;/p&gt;</description>
 			</item>
 	</channel>

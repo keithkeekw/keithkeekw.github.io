@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<div class="accent-bar"></div>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>A Runbook for When Your Brain Goes Offline — Keith Kee KW</title>
+<meta name="description" content="A structured outage runbook removes thinking under stress — five questions, a timecode rhythm, and clear roles to cut response time and keep customers informed.">
+<meta property="og:title" content="A Runbook for When Your Brain Goes Offline — Keith Kee KW">
+<meta property="og:description" content="A structured outage runbook removes thinking under stress — five questions, a timecode rhythm, and clear roles to cut response time and keep customers informed.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithkeekw.github.io/posts/2026-08-08-outage-response-runbook/">
+<meta property="og:site_name" content="Keith Kee KW"><meta property="og:locale" content="en-us"><meta property="og:image" content="https://keithkeekw.github.io/">
+  <meta property="article:published_time" content="2026-08-08T00:00:00&#43;08:00"><meta property="article:tag" content="incident-response"><meta property="article:tag" content="runbook"><meta property="article:tag" content="incident-commander"><meta property="article:tag" content="mental-models"><meta property="article:tag" content="on-call"><meta property="article:tag" content="ops">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A Runbook for When Your Brain Goes Offline — Keith Kee KW">
+<meta name="twitter:description" content="A structured outage runbook removes thinking under stress — five questions, a timecode rhythm, and clear roles to cut response time and keep customers informed."><meta name="twitter:image" content="https://keithkeekw.github.io/">
+
+
+<link rel="canonical" href="https://keithkeekw.github.io/posts/2026-08-08-outage-response-runbook/">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+
+<script>
+  (function() {
+    var theme = localStorage.getItem('theme');
+    if (!theme) {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
+
+<link rel="stylesheet" href="/css/main.min.52946cd05100834b7baa1dd62511479b7e449fb25d17eb3d0f5d5cd4934d29a1.css" integrity="sha256-UpRs0FEAg0t7qh3WJRFHm35En7JdF&#43;s9D11c1JNNKaE=">
+
+</head>
+<body><header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="site-title">Keith Kee KW</a>
+    <nav class="header-nav">
+        <a href="/posts/" class="nav-link">Notes</a>
+        <a href="/tags/" class="nav-link">Topics</a>
+        <a href="/resume/" class="nav-link">Resume</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <button id="search-toggle" class="search-toggle" aria-label="Search" title="Search (⌘K)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+  <div id="reading-progress" class="progress-bar" role="progressbar" aria-hidden="true"></div>
+
+  <div id="search-overlay" class="search-overlay" style="display:none">
+  <div class="search-modal">
+    <div class="search-input-wrapper">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input id="search-input" type="text" class="search-input" placeholder="Search notes..." autocomplete="off" spellcheck="false">
+      <span class="search-close-hint">ESC</span>
+    </div>
+    <div id="search-results" class="search-results"></div>
+  </div>
+</div>
+<main><div class="post-single-wrapper"><article class="post-single">
+      <header class="post-header">
+        <h1 class="post-title">A Runbook for When Your Brain Goes Offline</h1>
+        <div class="post-header-meta">
+          <time datetime="2026-08-08">August 8, 2026</time>
+          <span class="reading-time">5 min read</span>
+            <div class="tags">
+                <a href="/tags/incident-response" class="tag">incident-response</a>
+                <a href="/tags/runbook" class="tag">runbook</a>
+                <a href="/tags/incident-commander" class="tag">incident-commander</a>
+                <a href="/tags/mental-models" class="tag">mental-models</a>
+                <a href="/tags/on-call" class="tag">on-call</a>
+                <a href="/tags/ops" class="tag">ops</a>
+            </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <p>When a service goes down, the first thing that breaks isn&rsquo;t the server. It&rsquo;s your brain. Adrenaline hits. Tunnel vision sets in. You know you should do something, but you freeze.</p>
+<p>I&rsquo;ve seen smart engineers freeze. I&rsquo;ve done it. A runbook tells you what to do, in what order, so you don&rsquo;t have to think.</p>
+<p>This is the runbook I built. It runs on OODA: Observe, Orient, Decide, Act. One reason: make the obvious automatic when nothing feels obvious.</p>
+<h2 id="why-it-matters">Why it matters</h2>
+<p>Most teams don&rsquo;t have a runbook, just a shared understanding of &ldquo;what we usually do.&rdquo; That works until 2 AM when the pager goes off and the handler is asleep.</p>
+<p>A runbook does three things:</p>
+<ol>
+<li><strong>Removes the decision tax.</strong> Execute the next step. Don&rsquo;t decide what it is.</li>
+<li><strong>Prevents the &ldquo;I&rsquo;ll investigate first&rdquo; trap.</strong> An agent sits on a problem for 45 minutes, figuring it out alone.</li>
+<li><strong>Creates a shared rhythm.</strong> Everyone knows what to do at T+5, T+10, and T+30.</li>
+</ol>
+<h2 id="the-five-questions">The five questions</h2>
+<p>Before you declare an outage, answer five yes/no questions:</p>
+<ul>
+<li><strong>Spread:</strong> one customer, or multiple unrelated customers?</li>
+<li><strong>Impact:</strong> is a core feature broken?</li>
+<li><strong>Timing:</strong> is it happening right now, and can you reproduce it?</li>
+<li><strong>Confirmation:</strong> can you see it yourself, or do monitoring alerts confirm it?</li>
+<li><strong>Workaround:</strong> is the customer fully blocked with no alternative?</li>
+</ul>
+<p>If three or more point to YES: tell your team lead immediately. Don&rsquo;t investigate alone. Don&rsquo;t try to be the hero who fixes it before anyone notices.</p>
+<p>This is the single most important rule. In the example below, following it shaves 46 minutes off the response time.</p>
+<h2 id="severity-who-decides">Severity: who decides</h2>
+<p>The agent who detects the issue reports facts. The team lead classifies severity. Never let the same person do both.</p>
+<ul>
+<li><strong>Critical:</strong> system down, no workaround, all users affected</li>
+<li><strong>Partial:</strong> major feature degraded, many users impacted, no reasonable workaround</li>
+<li><strong>Incident:</strong> minor impact, some users, workaround available</li>
+</ul>
+<p>Severity drives everything: notification cadence, escalation path, who gets pulled in. Getting it right matters. Getting it fast matters more.</p>
+<h2 id="how-it-works-the-timecode-rhythm">How it works: the timecode rhythm</h2>
+<p>The runbook runs on a clock anchored to T+0, the moment of detection:</p>
+<pre tabindex="0"><code>T+0    Detect + Report         Agent gathers facts, tells team lead
+T+5    Appoint + Escalate      Lead assigns roles, tech lead escalates
+T+10   Open War Room           IC opens a dedicated chat channel
+T+30   First Notification      &#34;We&#39;re investigating&#34; goes to customers
+        ↓
+Every 30 min: Update customers — even with no new information
+        ↓
+Resolution → Monitoring notification (within 10 min)
+Stable for 30–60 min → Resolved notification (within 10 min)
+</code></pre><p>The rhythm matters more than any single message. Every 30 minutes, customers hear from you, even if only &ldquo;still investigating.&rdquo; Silence is the worst thing you can send.</p>
+<h2 id="roles-who-does-what">Roles: who does what</h2>
+<p>Three roles, mapped to the OODA loop:</p>
+<ul>
+<li><strong>Incident Commander (IC):</strong> the team lead. Owns the incident. Approves every communication. Runs the war room. One IC at all times — never two, never zero.</li>
+<li><strong>Tech Lead:</strong> escalates to engineering, stays with them until resolved. The bridge between support and the people who can fix things.</li>
+<li><strong>Scribe:</strong> drafts customer notifications. Flags incoming tickets. The IC approves; the scribe sends.</li>
+</ul>
+<p>The IC isn&rsquo;t the smartest person in the room. The IC is the person who makes sure the smart people are talking to each other.</p>
+<p>The OODA loop maps directly to concrete steps:</p>
+<ul>
+<li><strong>Observe</strong> (Steps 1–2): detect, gather facts, report. No judgment, just facts.</li>
+<li><strong>Orient</strong> (Step 3): classify severity. This is where the team lead makes the call.</li>
+<li><strong>Decide</strong> (Steps 4–5): announce the outage, appoint roles.</li>
+<li><strong>Act</strong> (Steps 6–14): escalate, log tickets, open the war room, notify customers, update every 30 minutes, monitor, resolve, review.</li>
+</ul>
+<h2 id="a-real-example-generalized">A real example (generalized)</h2>
+<p>A media processing service went down. Customers across Europe couldn&rsquo;t generate subtitles. First trouble ticket: 11:30 AM.</p>
+<p>The agent acknowledged but didn&rsquo;t escalate. At 12:01 the ticket was still being worked solo. Outage declared at 12:16 — 46 minutes after the first signal.</p>
+<p>Once the runbook kicked in: roles assigned, engineering pulled in, war room opened. But T+0 delay cascaded. First customer notification: almost two hours late. Then 50 minutes of silence.</p>
+<p>Apply the runbook from the start:</p>
+<ol>
+<li>The agent escalates at T+0 instead of investigating alone. 46 minutes saved.</li>
+<li>Customer comms go out within 30 minutes, not two hours.</li>
+<li>The 30-minute update cadence prevents the silent gap.</li>
+</ol>
+<p>The service was restored. The retrospective was honest. And the runbook got written.</p>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ol>
+<li><strong>&ldquo;I&rsquo;ll figure it out first.&rdquo;</strong> The most expensive four words in incident response. Report first, investigate second.</li>
+<li><strong>Delayed customer communication.</strong> Every minute of silence erodes trust. Send &ldquo;we&rsquo;re investigating&rdquo; before you know anything useful.</li>
+<li><strong>No formal IC handover.</strong> When an outage crosses shifts, the clock doesn&rsquo;t reset. Timecodes stay at the original T+0. Outgoing IC posts a brief; incoming IC acknowledges. One IC, no silent handoff.</li>
+<li><strong>Updates only when there&rsquo;s news.</strong> If 30 minutes pass with nothing new, send &ldquo;still investigating, no updates yet.&rdquo; The customer needs to know you haven&rsquo;t forgotten them.</li>
+<li><strong>Forgetting the runbook exists.</strong> Read it before the outage. Nobody reads documentation for the first time during one.</li>
+</ol>
+<h2 id="key-takeaways">Key takeaways</h2>
+<ul>
+<li>Three of five questions point to YES → declare. Don&rsquo;t investigate alone.</li>
+<li>The agent reports facts. The lead decides severity. Never the same person.</li>
+<li>T+30: first customer notification. Update every 30 min after, even with no news.</li>
+<li>Shift handovers must be explicit: one IC, no clock reset, no silent transfer.</li>
+<li>A runbook makes the obvious automatic under stress. Read it before you need it.</li>
+</ul>
+
+      </div>
+    </article>
+    <aside class="toc-wrapper">
+      <div class="toc-label">On this page</div>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-it-matters">Why it matters</a></li>
+    <li><a href="#the-five-questions">The five questions</a></li>
+    <li><a href="#severity-who-decides">Severity: who decides</a></li>
+    <li><a href="#how-it-works-the-timecode-rhythm">How it works: the timecode rhythm</a></li>
+    <li><a href="#roles-who-does-what">Roles: who does what</a></li>
+    <li><a href="#a-real-example-generalized">A real example (generalized)</a></li>
+    <li><a href="#common-mistakes">Common mistakes</a></li>
+    <li><a href="#key-takeaways">Key takeaways</a></li>
+  </ul>
+</nav>
+    </aside>
+  </div>
+</main><footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; 2026 Keith Kee KW | Made in 🇲🇾</span>
+    <div class="footer-social">
+        <a href="https://github.com/keithkeekw" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>
+        <a href="https://linkedin.com/in/keithkeekw" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://x.com/keithkeekw" target="_blank" rel="noopener noreferrer" title="X / Twitter" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="/index.xml" target="_blank" rel="noopener noreferrer" title="RSS" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415a3.29 3.29 0 013.291 3.291A3.29 3.29 0 013.292 24 3.29 3.29 0 010 20.706a3.29 3.29 0 013.291-3.291zM.815 10.04c.604 0 .604.002.604.002 7.058.203 12.58 5.722 12.788 12.785 0 0 .002.22.002.604h-3.013c0-.56-.005-.67-.015-.822a9.534 9.534 0 00-9.406-9.474c-.103-.003-.258-.007-.96-.009V10.04z"/></svg></a>
+    </div>
+  </div>
+</footer>
+<script src="/js/bundle.min.8d7c9929279cf0c736ad3913ac040118ec34e488655ad1a5965c1c02c1d5cf3e.js" integrity="sha256-jXyZKSec8Mc2rTkTrAQBGOw05IhlWtGlllwcAsHVzz4="></script>
+</body>
+</html>

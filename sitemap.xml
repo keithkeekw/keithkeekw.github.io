@@ -2,108 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/2026-08-01-bad-agent-or-bad-system/</loc>
+    <loc>https://keithkeekw.github.io/posts/2026-08-08-outage-response-runbook/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/incident-commander/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/incident-response/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/mental-models/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/on-call/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/ops/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/posts/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/runbook/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/</loc>
+    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/</loc>
     <lastmod>2026-08-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hanlons-razor/</loc>
+    <loc>https://keithkeekw.github.io/tags/hanlons-razor/</loc>
     <lastmod>2026-08-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://keithkeekw.github.io/tags/management/</loc>
     <lastmod>2026-08-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/management/</loc>
+    <loc>https://keithkeekw.github.io/tags/quality/</loc>
     <lastmod>2026-08-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mental-models/</loc>
+    <loc>https://keithkeekw.github.io/tags/support/</loc>
     <lastmod>2026-08-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/quality/</loc>
-    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/support/</loc>
-    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-08-01T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/career/</loc>
+    <loc>https://keithkeekw.github.io/tags/career/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/feedback/</loc>
+    <loc>https://keithkeekw.github.io/tags/feedback/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/leadership/</loc>
+    <loc>https://keithkeekw.github.io/tags/leadership/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/technical-manager/</loc>
+    <loc>https://keithkeekw.github.io/tags/technical-manager/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2026-07-26-new-technical-manager-manual/</loc>
+    <loc>https://keithkeekw.github.io/posts/2026-07-26-new-technical-manager-manual/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/decision-making/</loc>
+    <loc>https://keithkeekw.github.io/tags/decision-making/</loc>
     <lastmod>2026-07-18T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/incident-commander/</loc>
+    <loc>https://keithkeekw.github.io/tags/ooda/</loc>
     <lastmod>2026-07-18T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/incident-response/</loc>
+    <loc>https://keithkeekw.github.io/tags/raci/</loc>
     <lastmod>2026-07-18T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ooda/</loc>
+    <loc>https://keithkeekw.github.io/posts/2026-07-18-incident-manager-os/</loc>
     <lastmod>2026-07-18T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/raci/</loc>
-    <lastmod>2026-07-18T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/2026-07-18-incident-manager-os/</loc>
-    <lastmod>2026-07-18T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ooda-loop/</loc>
+    <loc>https://keithkeekw.github.io/posts/2026-07-10-incident-response-ooda/</loc>
     <lastmod>2026-07-10T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2026-07-10-incident-response-ooda/</loc>
-    <lastmod>2026-07-10T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/critical-thinking/</loc>
+    <loc>https://keithkeekw.github.io/tags/critical-thinking/</loc>
     <lastmod>2026-07-04T20:08:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2026-07-04-occam-razor/</loc>
+    <loc>https://keithkeekw.github.io/posts/2026-07-04-occam-razor/</loc>
     <lastmod>2026-07-04T20:08:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/problem-solving/</loc>
+    <loc>https://keithkeekw.github.io/tags/problem-solving/</loc>
     <lastmod>2026-07-04T20:08:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://keithkeekw.github.io/tags/ai/</loc>
     <lastmod>2026-06-27T23:33:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/framework/</loc>
+    <loc>https://keithkeekw.github.io/tags/prompting/</loc>
     <lastmod>2026-06-27T23:33:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/prompt-engineering/</loc>
+    <loc>https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/</loc>
     <lastmod>2026-06-27T23:33:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2026-06-27-ai-fluency/</loc>
-    <lastmod>2026-06-27T23:33:03+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/prompting/</loc>
+    <loc>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</loc>
     <lastmod>2026-06-26T21:48:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2026-06-26-race-prompt/</loc>
-    <lastmod>2026-06-26T21:48:03+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/project-management/</loc>
+    <loc>https://keithkeekw.github.io/tags/project-management/</loc>
     <lastmod>2026-06-20T22:44:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/technical-document/</loc>
+    <loc>https://keithkeekw.github.io/tags/technical-document/</loc>
     <lastmod>2026-06-20T22:44:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2026-06-20---product-requirement-document/</loc>
+    <loc>https://keithkeekw.github.io/posts/2026-06-20-product-requirement-document/</loc>
     <lastmod>2026-06-20T22:44:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>https://keithkeekw.github.io/resume/</loc>
   </url>
 </urlset>

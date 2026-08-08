@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Prompting on Keith Kee KW</title>
-		<link>http://localhost:1313/tags/prompting/</link>
+		<link>https://keithkeekw.github.io/tags/prompting/</link>
 		<description>Recent content in Prompting on Keith Kee KW</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,14 +10,21 @@
 		
 		
 		
-			<lastBuildDate>Fri, 26 Jun 2026 21:48:03 +0800</lastBuildDate>
+			<lastBuildDate>Sat, 27 Jun 2026 23:33:03 +0800</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/prompting/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://keithkeekw.github.io/tags/prompting/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The 4D Framework of AI Fluency</title>
+				<link>https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/</link>
+				<pubDate>Sat, 27 Jun 2026 23:33:03 +0800</pubDate>
+				<guid>https://keithkeekw.github.io/posts/2026-06-27-ai-fluency/</guid>
+				<description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Fluency&lt;/strong&gt; is the ability to interact with AI effectively, efficiently, ethically, and safely. It&amp;rsquo;s not about memorising prompt tricks — it&amp;rsquo;s about developing a repeatable approach to working &lt;em&gt;with&lt;/em&gt; AI, rather than just throwing questions at it.&lt;/p&gt;&#xA;&lt;p&gt;Anthropic&amp;rsquo;s &lt;strong&gt;4D Framework&lt;/strong&gt; defines four core skills that make up that fluency: &lt;strong&gt;Delegation&lt;/strong&gt;, &lt;strong&gt;Description&lt;/strong&gt;, &lt;strong&gt;Discernment&lt;/strong&gt;, and &lt;strong&gt;Diligence&lt;/strong&gt;. Before applying any of the four Ds, it helps to recognise the three distinct modes you can engage AI in — because fluency also means knowing which mode fits the task.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Race Prompting Framework</title>
-				<link>http://localhost:1313/posts/2026-06-26-race-prompt/</link>
+				<link>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</link>
 				<pubDate>Fri, 26 Jun 2026 21:48:03 +0800</pubDate>
-				<guid>http://localhost:1313/posts/2026-06-26-race-prompt/</guid>
+				<guid>https://keithkeekw.github.io/posts/2026-06-26-race-prompt/</guid>
 				<description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;RACE&lt;/strong&gt; is a structured prompting framework designed to reduce ambiguity and improve the quality of AI outputs. It works by breaking a prompt into four deliberate components — &lt;strong&gt;Role&lt;/strong&gt;, &lt;strong&gt;Action&lt;/strong&gt;, &lt;strong&gt;Context&lt;/strong&gt;, and &lt;strong&gt;Execute/Expected Output&lt;/strong&gt; — ensuring the model has everything it needs to respond with precision. Rather than prompting by instinct, RACE makes prompt construction a repeatable, teachable process.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-four-components&#34;&gt;The Four Components&lt;/h2&gt;&#xA;&lt;h3 id=&#34;r--role&#34;&gt;R — Role&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who should the AI be?&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
