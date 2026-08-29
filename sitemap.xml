@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://keithkeekw.github.io/tags/cynefin/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/posts/2026-08-29-cynefin-for-technical-support-managers/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/decision-making/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/incident-management/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/leadership/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/mental-models/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/posts/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://keithkeekw.github.io/tags/technical-support/</loc>
+    <lastmod>2026-08-29T12:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://keithkeekw.github.io/posts/2026-08-08-outage-response-runbook/</loc>
     <lastmod>2026-08-08T00:00:00+08:00</lastmod>
   </url><url>
@@ -11,25 +41,13 @@
     <loc>https://keithkeekw.github.io/tags/incident-response/</loc>
     <lastmod>2026-08-08T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://keithkeekw.github.io/</loc>
-    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://keithkeekw.github.io/tags/mental-models/</loc>
-    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://keithkeekw.github.io/tags/on-call/</loc>
     <lastmod>2026-08-08T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/tags/ops/</loc>
     <lastmod>2026-08-08T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://keithkeekw.github.io/posts/</loc>
-    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://keithkeekw.github.io/tags/runbook/</loc>
-    <lastmod>2026-08-08T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://keithkeekw.github.io/tags/</loc>
     <lastmod>2026-08-08T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/posts/2026-08-01-bad-agent-or-bad-system/</loc>
@@ -53,17 +71,11 @@
     <loc>https://keithkeekw.github.io/tags/feedback/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://keithkeekw.github.io/tags/leadership/</loc>
-    <lastmod>2026-07-26T08:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://keithkeekw.github.io/tags/technical-manager/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/posts/2026-07-26-new-technical-manager-manual/</loc>
     <lastmod>2026-07-26T08:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://keithkeekw.github.io/tags/decision-making/</loc>
-    <lastmod>2026-07-18T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://keithkeekw.github.io/tags/ooda/</loc>
     <lastmod>2026-07-18T00:00:00+08:00</lastmod>

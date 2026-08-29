@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sat, 08 Aug 2026 00:00:00 +0800</lastBuildDate>
+			<lastBuildDate>Sat, 29 Aug 2026 12:00:00 +0800</lastBuildDate>
 		
 			<atom:link href="https://keithkeekw.github.io/tags/mental-models/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cynefin for Technical Support Managers: Match the Response to the Situation</title>
+				<link>https://keithkeekw.github.io/posts/2026-08-29-cynefin-for-technical-support-managers/</link>
+				<pubDate>Sat, 29 Aug 2026 12:00:00 +0800</pubDate>
+				<guid>https://keithkeekw.github.io/posts/2026-08-29-cynefin-for-technical-support-managers/</guid>
+				<description>&lt;p&gt;Every support manager runs the same loop all day: what is this, how bad is it, what do I do. One loop does not fit every ticket.&lt;/p&gt;&#xA;&lt;p&gt;I learned this the hard way. I used to treat every escalation like a puzzle: gather data, analyze, find the root cause. That works for a Sev-2. It is a disaster for a Sev-1. Overkill for a password reset.&lt;/p&gt;&#xA;&lt;p&gt;Cynefin tells you which response a situation deserves before you commit to one.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>A Runbook for When Your Brain Goes Offline</title>
 				<link>https://keithkeekw.github.io/posts/2026-08-08-outage-response-runbook/</link>

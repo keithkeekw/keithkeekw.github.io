@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Incident-Management on Keith Kee KW</title>
+		<link>https://keithkeekw.github.io/tags/incident-management/</link>
+		<description>Recent content in Incident-Management on Keith Kee KW</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 12:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://keithkeekw.github.io/tags/incident-management/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cynefin for Technical Support Managers: Match the Response to the Situation</title>
+				<link>https://keithkeekw.github.io/posts/2026-08-29-cynefin-for-technical-support-managers/</link>
+				<pubDate>Sat, 29 Aug 2026 12:00:00 +0800</pubDate>
+				<guid>https://keithkeekw.github.io/posts/2026-08-29-cynefin-for-technical-support-managers/</guid>
+				<description>&lt;p&gt;Every support manager runs the same loop all day: what is this, how bad is it, what do I do. One loop does not fit every ticket.&lt;/p&gt;&#xA;&lt;p&gt;I learned this the hard way. I used to treat every escalation like a puzzle: gather data, analyze, find the root cause. That works for a Sev-2. It is a disaster for a Sev-1. Overkill for a password reset.&lt;/p&gt;&#xA;&lt;p&gt;Cynefin tells you which response a situation deserves before you commit to one.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

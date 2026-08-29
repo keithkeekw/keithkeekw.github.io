@@ -1,5 +1,12 @@
 [
   {
+    "title": "Cynefin for Technical Support Managers: Match the Response to the Situation",
+    "permalink": "https://keithkeekw.github.io/posts/2026-08-29-cynefin-for-technical-support-managers/",
+    "summary": "Cynefin helps support managers match their response to the situation: runbooks for clear problems, experts for complicated ones, experiments for complex ones, action for chaos.",
+    "date": "2026-08-29",
+    "tags": ["mental-models","cynefin","incident-management","technical-support","decision-making","leadership"]
+  },
+  {
     "title": "A Runbook for When Your Brain Goes Offline",
     "permalink": "https://keithkeekw.github.io/posts/2026-08-08-outage-response-runbook/",
     "summary": "A structured outage runbook removes thinking under stress — five questions, a timecode rhythm, and clear roles to cut response time and keep customers informed.",

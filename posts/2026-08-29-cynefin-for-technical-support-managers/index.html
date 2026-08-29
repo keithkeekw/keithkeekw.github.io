@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<div class="accent-bar"></div>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Cynefin for Technical Support Managers: Match the Response to the Situation — Keith Kee KW</title>
+<meta name="description" content="Cynefin helps support managers match their response to the situation: runbooks for clear problems, experts for complicated ones, experiments for complex ones, action for chaos.">
+<meta property="og:title" content="Cynefin for Technical Support Managers: Match the Response to the Situation — Keith Kee KW">
+<meta property="og:description" content="Cynefin helps support managers match their response to the situation: runbooks for clear problems, experts for complicated ones, experiments for complex ones, action for chaos.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithkeekw.github.io/posts/2026-08-29-cynefin-for-technical-support-managers/">
+<meta property="og:site_name" content="Keith Kee KW"><meta property="og:locale" content="en-us"><meta property="og:image" content="https://keithkeekw.github.io/">
+  <meta property="article:published_time" content="2026-08-29T12:00:00&#43;08:00"><meta property="article:tag" content="mental-models"><meta property="article:tag" content="cynefin"><meta property="article:tag" content="incident-management"><meta property="article:tag" content="technical-support"><meta property="article:tag" content="decision-making"><meta property="article:tag" content="leadership">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cynefin for Technical Support Managers: Match the Response to the Situation — Keith Kee KW">
+<meta name="twitter:description" content="Cynefin helps support managers match their response to the situation: runbooks for clear problems, experts for complicated ones, experiments for complex ones, action for chaos."><meta name="twitter:image" content="https://keithkeekw.github.io/">
+
+
+<link rel="canonical" href="https://keithkeekw.github.io/posts/2026-08-29-cynefin-for-technical-support-managers/">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+
+<script>
+  (function() {
+    var theme = localStorage.getItem('theme');
+    if (!theme) {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
+
+<link rel="stylesheet" href="/css/main.min.52946cd05100834b7baa1dd62511479b7e449fb25d17eb3d0f5d5cd4934d29a1.css" integrity="sha256-UpRs0FEAg0t7qh3WJRFHm35En7JdF&#43;s9D11c1JNNKaE=">
+
+</head>
+<body><header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="site-title">Keith Kee KW</a>
+    <nav class="header-nav">
+        <a href="/posts/" class="nav-link">Notes</a>
+        <a href="/tags/" class="nav-link">Topics</a>
+        <a href="/resume/" class="nav-link">Resume</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <button id="search-toggle" class="search-toggle" aria-label="Search" title="Search (⌘K)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+  <div id="reading-progress" class="progress-bar" role="progressbar" aria-hidden="true"></div>
+
+  <div id="search-overlay" class="search-overlay" style="display:none">
+  <div class="search-modal">
+    <div class="search-input-wrapper">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input id="search-input" type="text" class="search-input" placeholder="Search notes..." autocomplete="off" spellcheck="false">
+      <span class="search-close-hint">ESC</span>
+    </div>
+    <div id="search-results" class="search-results"></div>
+  </div>
+</div>
+<main><div class="post-single-wrapper"><article class="post-single">
+      <header class="post-header">
+        <h1 class="post-title">Cynefin for Technical Support Managers: Match the Response to the Situation</h1>
+        <div class="post-header-meta">
+          <time datetime="2026-08-29">August 29, 2026</time>
+          <span class="reading-time">4 min read</span>
+            <div class="tags">
+                <a href="/tags/mental-models" class="tag">mental-models</a>
+                <a href="/tags/cynefin" class="tag">cynefin</a>
+                <a href="/tags/incident-management" class="tag">incident-management</a>
+                <a href="/tags/technical-support" class="tag">technical-support</a>
+                <a href="/tags/decision-making" class="tag">decision-making</a>
+                <a href="/tags/leadership" class="tag">leadership</a>
+            </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <p>Every support manager runs the same loop all day: what is this, how bad is it, what do I do. One loop does not fit every ticket.</p>
+<p>I learned this the hard way. I used to treat every escalation like a puzzle: gather data, analyze, find the root cause. That works for a Sev-2. It is a disaster for a Sev-1. Overkill for a password reset.</p>
+<p>Cynefin tells you which response a situation deserves before you commit to one.</p>
+<h2 id="what-is-cynefin">What is Cynefin</h2>
+<p>Cynefin (kuh-NEV-in), by Dave Snowden, sorts problems into four domains by how well cause and effect are understood, each with its own response:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Domain</th>
+					<th>What it looks like</th>
+					<th>Right response</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Clear</td>
+					<td>Cause and effect are obvious. Known fix.</td>
+					<td>Sense → Categorize → Respond</td>
+			</tr>
+			<tr>
+					<td>Complicated</td>
+					<td>Cause is discoverable, but only through expert analysis.</td>
+					<td>Sense → Analyze → Respond</td>
+			</tr>
+			<tr>
+					<td>Complex</td>
+					<td>Cause is only visible in hindsight. No amount of analysis gives certainty.</td>
+					<td>Probe → Sense → Respond</td>
+			</tr>
+			<tr>
+					<td>Chaotic</td>
+					<td>No time to analyze. Stabilize first.</td>
+					<td>Act → Sense → Respond</td>
+			</tr>
+	</tbody>
+</table>
+<p>Different problems demand different responses. Misapplying one is a primary source of leadership failure.</p>
+<h2 id="why-it-matters">Why it matters</h2>
+<p>A support manager&rsquo;s day is all four domains in one inbox. A password reset is Clear. A billing edge case needing the payments engineer is Complicated. The intermittent slowness that matches no pattern is Complex. The Sev-1 taking down the platform is Chaotic.</p>
+<p>If you respond to all four the same way, you fail three of them:</p>
+<ul>
+<li>Treat every ticket like a runbook item and the weird ones bounce back unresolved.</li>
+<li>Treat every ticket like an investigation and routine ones take ten times too long.</li>
+<li>Treat a Sev-1 like a research project and the outage grows while you &ldquo;gather data.&rdquo;</li>
+</ul>
+<p>Cynefin also gives your team a shared language: you argue about the domain instead of the solution.</p>
+<p>It also explains when your other tools apply. Runbooks serve the Clear domain, engineers the Complicated, and your <a href="/posts/2026-07-10-incident-response-ooda/">incident OODA loop</a> the Complex and Chaotic. Cynefin is the map that tells you which tool to use.</p>
+<h2 id="benefits-of-adopting-it">Benefits of adopting it</h2>
+<ul>
+<li><strong>Faster triage.</strong> The first question becomes &ldquo;what kind of problem is this?&rdquo; Once you know the domain, the response is almost obvious.</li>
+<li><strong>Better incident leadership.</strong> In a crisis you act first and stabilize. No one demands root-cause analysis mid-firefight.</li>
+<li><strong>Less wasted effort.</strong> No experiments on things with a known fix; no analysis on things that can only be probed.</li>
+<li><strong>Better team coaching.</strong> Your analysts stop oscillating between &ldquo;just follow the runbook&rdquo; and &ldquo;investigate forever.&rdquo; They learn to classify before they act.</li>
+<li><strong>Protection from the cliff.</strong> Clear-domain complacency can collapse straight into Chaos. Routine processes need early-warning signals, not blind trust.</li>
+</ul>
+<h2 id="how-to-practise-it">How to practise it</h2>
+<ol>
+<li><strong>Diagnose before you decide.</strong> Ask: do I know the cause? Is it under control? Does it need expert knowledge? Can I predict the outcome? Map the answers to a domain.</li>
+<li><strong>Match the response.</strong> Clear: apply the standard procedure. Complicated: bring in the right expert and let them lead. Complex: run small, safe-to-fail experiments and amplify what works. Chaotic: act to stabilize, then move toward Complex.</li>
+<li><strong>Drive incidents through the domains.</strong> A major incident should travel Chaotic → Complex → Complicated → Clear. The first ten minutes are chaotic: act, communicate, stabilize. Once it is stable, probe to understand. Then bring in expert analysis. Finally, write the runbook.</li>
+<li><strong>Map problems with the team.</strong> When a meeting stalls, draw the four domains and have everyone place the problem. The disagreement is often about the domain, not the solution.</li>
+<li><strong>Audit your default.</strong> Every manager has a comfort zone: decisive ones over-act, analytical ones over-analyze. Know yours, and do the opposite when the domain calls for it.</li>
+</ol>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Treating Complex as Clear.</strong> Imposing a rigid plan on a problem whose cause you cannot see. The plan looks confident and fails anyway.</li>
+<li><strong>Demanding analysis in Chaos.</strong> Asking for root cause during the firefight. Stabilize first, investigate after.</li>
+<li><strong>Investigating Clear work.</strong> A runbook ticket is not a research project.</li>
+<li><strong>Confusing Complicated with Complex.</strong> They sound alike but are opposites: Complicated rewards expertise; Complex punishes it.</li>
+<li><strong>Forcing everything into Clear.</strong> Some problems are genuinely Complex. Not everything becomes an SOP.</li>
+</ul>
+<h2 id="key-takeaways">Key takeaways</h2>
+<ul>
+<li>Cynefin sorts problems into Clear, Complicated, Complex, and Chaotic — each with a different response.</li>
+<li>Applying one decision style to everything is the most common leadership failure.</li>
+<li>Support work is all four domains in a single day. Classify first, then respond.</li>
+<li>Your runbooks, experts, and incident playbooks are each built for one domain. Cynefin tells you which one to use.</li>
+<li>Practice: diagnose, match, drive incidents through domains, and audit your default.</li>
+</ul>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li>Snowden &amp; Boone, &ldquo;A Leader&rsquo;s Framework for Decision Making,&rdquo; Harvard Business Review (2007).</li>
+<li>Kurtz &amp; Snowden, &ldquo;The new dynamics of strategy,&rdquo; IBM Systems Journal (2003).</li>
+<li>Snowden, Greenberg &amp; Bertsch, <em>Cynefin: Weaving Sense-Making into the Fabric of Our World</em> (2021).</li>
+<li><a href="https://untools.co/cynefin-framework/">Untools: Cynefin Framework</a>, a concise interactive guide.</li>
+</ul>
+<p>Related posts:</p>
+<ul>
+<li><a href="/posts/2026-07-10-incident-response-ooda/">Incident response with the OODA loop</a></li>
+<li><a href="/posts/2026-08-08-outage-response-runbook/">A runbook for when your brain goes offline</a></li>
+<li><a href="/posts/2026-07-18-incident-manager-os/">The Incident Manager OS</a></li>
+<li><a href="/posts/2026-07-26-new-technical-manager-manual/">The New Technical Manager Manual</a></li>
+</ul>
+
+      </div>
+    </article>
+    <aside class="toc-wrapper">
+      <div class="toc-label">On this page</div>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-cynefin">What is Cynefin</a></li>
+    <li><a href="#why-it-matters">Why it matters</a></li>
+    <li><a href="#benefits-of-adopting-it">Benefits of adopting it</a></li>
+    <li><a href="#how-to-practise-it">How to practise it</a></li>
+    <li><a href="#common-mistakes">Common mistakes</a></li>
+    <li><a href="#key-takeaways">Key takeaways</a></li>
+    <li><a href="#further-reading">Further reading</a></li>
+  </ul>
+</nav>
+    </aside>
+  </div>
+</main><footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; 2026 Keith Kee KW | Made in 🇲🇾</span>
+    <div class="footer-social">
+        <a href="https://github.com/keithkeekw" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>
+        <a href="https://linkedin.com/in/keithkeekw" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://x.com/keithkeekw" target="_blank" rel="noopener noreferrer" title="X / Twitter" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="/index.xml" target="_blank" rel="noopener noreferrer" title="RSS" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415a3.29 3.29 0 013.291 3.291A3.29 3.29 0 013.292 24 3.29 3.29 0 010 20.706a3.29 3.29 0 013.291-3.291zM.815 10.04c.604 0 .604.002.604.002 7.058.203 12.58 5.722 12.788 12.785 0 0 .002.22.002.604h-3.013c0-.56-.005-.67-.015-.822a9.534 9.534 0 00-9.406-9.474c-.103-.003-.258-.007-.96-.009V10.04z"/></svg></a>
+    </div>
+  </div>
+</footer>
+<script src="/js/bundle.min.8d7c9929279cf0c736ad3913ac040118ec34e488655ad1a5965c1c02c1d5cf3e.js" integrity="sha256-jXyZKSec8Mc2rTkTrAQBGOw05IhlWtGlllwcAsHVzz4="></script>
+</body>
+</html>
